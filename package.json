@@ -1,6 +1,6 @@
 {
-  "name": "device-detector-js",
-  "version": "3.0.3",
+  "name": "@matiasfic/device-detector-js",
+  "version": "3.0.4",
   "description": "A javascript port of Matomo device-detector",
   "homepage": "https://github.com/etienne-martin/device-detector-js#readme",
   "keywords": [
@@ -19,10 +19,7 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": {
-    "name": "Etienne Martin",
-    "url": "http://etiennemartin.ca/"
-  },
+  "author": "Matias Ficarrotti",
   "contributors": [
     "Alex Beauchemin <alexbeauchemin01@gmail.com> (https://github.com/AlexBeauchemin)",
     "Ayan Dey <ayand04@gmail.com> (https://github.com/whimsicaldreamer)",
@@ -30,10 +27,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/etienne-martin/device-detector-js"
+    "url": "https://github.com/matiasfic/device-detector-js"
   },
   "bugs": {
-    "url": "https://github.com/etienne-martin/device-detector-js/issues"
+    "url": "https://github.com/matiasfic/device-detector-js/issues"
   },
   "engines": {
     "node": ">= 8.11.4"
