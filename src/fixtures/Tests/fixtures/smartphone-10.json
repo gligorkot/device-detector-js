@@ -4617,7 +4617,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -8651,7 +8651,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.7.2.1340(0x2607023A)"
+      "version": "6.7.2.1340"
     },
     "device": {
       "type": "smartphone",
@@ -10211,7 +10211,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -10273,7 +10273,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.50.raae3e65.580"
+      "version": "6.2.2.50"
     },
     "device": {
       "type": "smartphone",
@@ -10469,7 +10469,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.1.0.66.r1062275.542"
+      "version": "6.1.0.66"
     },
     "device": {
       "type": "smartphone",
@@ -10885,7 +10885,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",

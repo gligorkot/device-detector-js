@@ -85,7 +85,7 @@
       "name": "Fire OS",
       "short_name": "FIR",
       "version": "5.3.6.2",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -205,7 +205,7 @@
       "name": "KaiOS",
       "short_name": "KOS",
       "version": "2.0",
-      "platform": "",
+      "platform": null,
       "family": "Firefox OS"
     }
   },
@@ -655,7 +655,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "9",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -735,7 +735,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -745,7 +745,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -755,7 +755,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -765,7 +765,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -775,7 +775,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -785,7 +785,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -795,7 +795,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -914,7 +914,37 @@
     "os": {
       "name": "PlayStation",
       "short_name": "PS3",
-      "version": "3",
+      "version": "3.4.46",
+      "platform": null,
+      "family": "Gaming Console"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (PlayStation; PlayStation 5/2.26) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15",
+    "os": {
+      "name": "PlayStation",
+      "short_name": "PS3",
+      "version": "5.2.26",
+      "platform": null,
+      "family": "Gaming Console"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 [ja] (Playstation2; Linux 2.4.20 MIPS; ja-JP; rv:1.8a2) Gecko/20040630",
+    "os": {
+      "name": "PlayStation",
+      "short_name": "PS3",
+      "version": "2.4.20",
+      "platform": "MIPS",
+      "family": "Gaming Console"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (PlayStation 4 Pro 5.0)",
+    "os": {
+      "name": "PlayStation",
+      "short_name": "PS3",
+      "version": "4.5.0",
       "platform": null,
       "family": "Gaming Console"
     }
@@ -975,7 +1005,7 @@
       "name": "webOS",
       "short_name": "WOS",
       "version": "3",
-      "platform": "",
+      "platform": null,
       "family": "Other Mobile"
     }
   },
@@ -986,6 +1016,36 @@
       "short_name": "WOS",
       "version": "1.4.5",
       "platform": null,
+      "family": "Other Mobile"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chr0me/38.0.2125.122 Safari/537.36 LG Browser/8.00.00(LGE; WEBOS3; 03.00.65; 1; DTV_W16R); webOS.TV-2016; LG NetCast.TV-2013 Compatible (LGE, WEBOS3, wired)",
+    "os": {
+      "name": "webOS",
+      "short_name": "WOS",
+      "version": "3",
+      "platform": null,
+      "family": "Other Mobile"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; WEBOS1; 00.00.00; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wired)",
+    "os": {
+      "name": "webOS",
+      "short_name": "WOS",
+      "version": "1",
+      "platform": null,
+      "family": "Other Mobile"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager",
+    "os": {
+      "name": "webOS",
+      "short_name": "WOS",
+      "version": "6",
+      "platform": "",
       "family": "Other Mobile"
     }
   },
@@ -1075,7 +1135,7 @@
       "name": "Windows Mobile",
       "short_name": "WMO",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows Mobile"
     }
   },
@@ -1314,7 +1374,7 @@
     "os": {
       "name": "Mac",
       "short_name": "MAC",
-      "version": "10.12.3",
+      "version": "10.12.2",
       "platform": "x64",
       "family": "Mac"
     }
@@ -1545,7 +1605,7 @@
       "name": "MRE",
       "short_name": "MRE",
       "version": "3.1",
-      "platform": "",
+      "platform": null,
       "family": "Real-time OS"
     }
   },
@@ -1795,7 +1855,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1805,7 +1865,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1815,7 +1875,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1825,7 +1885,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1835,7 +1895,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1845,7 +1905,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.4.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1855,7 +1915,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1865,7 +1925,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1875,7 +1935,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1885,7 +1945,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1895,7 +1955,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1905,7 +1965,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.3.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1915,7 +1975,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1925,7 +1985,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.5",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1935,7 +1995,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.6",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1945,7 +2005,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1955,7 +2015,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -1965,7 +2025,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2315,7 +2375,7 @@
       "name": "webOS",
       "short_name": "WOS",
       "version": "6.0",
-      "platform": "",
+      "platform": null,
       "family": "Other Mobile"
     }
   },
@@ -2445,7 +2505,7 @@
       "name": "FydeOS",
       "short_name": "FYD",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Chrome OS"
     }
   },
@@ -2475,7 +2535,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.3.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2485,7 +2545,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.3.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2495,7 +2555,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -2505,7 +2565,7 @@
       "name": "Fenix",
       "short_name": "FEN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -2515,7 +2575,7 @@
       "name": "Fenix",
       "short_name": "FEN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -2525,7 +2585,7 @@
       "name": "webOS",
       "short_name": "WOS",
       "version": "4.5",
-      "platform": "",
+      "platform": null,
       "family": "Other Mobile"
     }
   },
@@ -2535,7 +2595,7 @@
       "name": "Fire OS",
       "short_name": "FIR",
       "version": "7",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2545,7 +2605,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "9",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2575,7 +2635,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "11.0.1",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -2585,7 +2645,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.1.1",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2595,7 +2655,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2625,7 +2685,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.0.4",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2635,7 +2695,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.0.4",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2655,7 +2715,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.2.2",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2665,7 +2725,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.4",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2675,7 +2735,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "2.3.7",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2685,7 +2745,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.0.4",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2695,7 +2755,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "4.0.4",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2715,7 +2775,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "13.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2725,7 +2785,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "14.2.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2735,7 +2795,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "14.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2745,7 +2805,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "13.5.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2775,7 +2835,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "8.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2785,7 +2845,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.6",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2795,7 +2855,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2805,7 +2865,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "8.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2835,7 +2895,7 @@
       "name": "GridOS",
       "short_name": "GRI",
       "version": "1.0",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2875,7 +2935,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -2885,7 +2945,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "10.12.6",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -2895,7 +2955,7 @@
       "name": "Windows Phone",
       "short_name": "WPH",
       "version": "10.0.14364.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows Mobile"
     }
   },
@@ -2915,7 +2975,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "4.2.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2925,7 +2985,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2935,7 +2995,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -2945,7 +3005,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.5",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2955,7 +3015,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2965,7 +3025,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.6",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2975,7 +3035,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.7",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2985,7 +3045,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "15.0",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -2995,7 +3055,7 @@
       "name": "HarmonyOS",
       "short_name": "HAR",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -3005,7 +3065,7 @@
       "name": "Java ME",
       "short_name": "JME",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Real-time OS"
     }
   },
@@ -3015,7 +3075,7 @@
       "name": "REX",
       "short_name": "REX",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Real-time OS"
     }
   },
@@ -3035,7 +3095,7 @@
       "name": "OpenWrt",
       "short_name": "OWR",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3045,7 +3105,7 @@
       "name": "Roku OS",
       "short_name": "ROK",
       "version": "9.10",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3055,7 +3115,7 @@
       "name": "Roku OS",
       "short_name": "ROK",
       "version": "5.3.0.49",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3065,7 +3125,7 @@
       "name": "Roku OS",
       "short_name": "ROK",
       "version": "6.2.80.2752",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3075,7 +3135,7 @@
       "name": "Roku OS",
       "short_name": "ROK",
       "version": "9.4.0.4200",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3085,7 +3145,7 @@
       "name": "Roku OS",
       "short_name": "ROK",
       "version": "9.40",
-      "platform": "",
+      "platform": null,
       "family": "GNU/Linux"
     }
   },
@@ -3095,7 +3155,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.4.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3105,7 +3165,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3115,7 +3175,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3125,7 +3185,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3135,7 +3195,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3145,7 +3205,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3155,7 +3215,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "15.0.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3165,7 +3225,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "15.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3175,7 +3235,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "15.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3255,7 +3315,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "15.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3265,7 +3325,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.4.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3275,7 +3335,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "10.14.6",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3285,7 +3345,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "8.0.0",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -3315,7 +3375,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3325,7 +3385,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3335,7 +3395,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3365,7 +3425,7 @@
       "name": "Windows",
       "short_name": "WIN",
       "version": "10.0",
-      "platform": "",
+      "platform": null,
       "family": "Windows"
     }
   },
@@ -3375,7 +3435,7 @@
       "name": "iPadOS",
       "short_name": "IPA",
       "version": "14.8",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3385,7 +3445,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.5.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3395,7 +3455,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.5.5",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3405,7 +3465,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "11.4",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3415,7 +3475,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "11.6.1",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3425,7 +3485,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3435,7 +3495,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3445,7 +3505,7 @@
       "name": "Android",
       "short_name": "AND",
       "version": "9",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -3455,7 +3515,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "10.3.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3465,7 +3525,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3475,7 +3535,7 @@
       "name": "Fire OS",
       "short_name": "FIR",
       "version": "6",
-      "platform": "",
+      "platform": null,
       "family": "Android"
     }
   },
@@ -3515,7 +3575,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "14.4.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3525,7 +3585,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "15.0.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3535,7 +3595,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "9.3.5",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3545,7 +3605,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.2",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3555,7 +3615,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.2.6",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3565,7 +3625,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "11.3",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3575,7 +3635,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.1.4",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3585,7 +3645,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.4.8",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3595,7 +3655,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "13.1.1",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3605,7 +3665,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.4.8",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3615,7 +3675,7 @@
       "name": "iOS",
       "short_name": "IOS",
       "version": "12.4.6",
-      "platform": "",
+      "platform": null,
       "family": "iOS"
     }
   },
@@ -3625,7 +3685,7 @@
       "name": "Mac",
       "short_name": "MAC",
       "version": "10.5.8",
-      "platform": "",
+      "platform": null,
       "family": "Mac"
     }
   },
@@ -3635,8 +3695,238 @@
       "name": "Android",
       "short_name": "AND",
       "version": "6",
-      "platform": "",
+      "platform": null,
       "family": "Android"
+    }
+  },
+  {
+    "user_agent": "AirPlay/540.31",
+    "os": {
+      "name": "iOS",
+      "short_name": "IOS",
+      "version": "",
+      "platform": null,
+      "family": "iOS"
+    }
+  },
+  {
+    "user_agent": "Mozilla/5.0 (AppleTV11,1; CPU OS 11.1 like Mac OS X; en-US)",
+    "os": {
+      "name": "tvOS",
+      "short_name": "ATV",
+      "version": "11.1",
+      "platform": "ARM",
+      "family": "iOS"
+    }
+  },
+  {
+    "user_agent": "RokuOS/3.0.0|Roku 3930X|STB|RokuOS 9.4.0 4200",
+    "os": {
+      "name": "Roku OS",
+      "short_name": "ROK",
+      "version": "9.4.0",
+      "platform": null,
+      "family": "GNU/Linux"
+    }
+  },
+  {
+    "user_agent": "com.apple.Safari.SearchHelper/14607.1.40.1.4 CFNetwork/978.0.7 Darwin/18.5.0 (x86_64)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.14.4",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "com.apple.Safari.SearchHelper/14607.2.6.1.1 CFNetwork/978.0.7 Darwin/18.6.0 (x86_64)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.14.5",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "com.apple.Safari.SearchHelper/12602.1.50.0.2 CFNetwork/807.0.4 Darwin/16.0.0 (x86_64)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.12",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "iTunes/12.9.5 (Macintosh; OS X 10.14.6) AppleWebKit/607.3.9",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.14.6",
+      "platform": null,
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari/10600.1.25 CFNetwork/720.0.7 Darwin/14.0.0 (x86_64)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.10",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari/12602.4.8 CFNetwork/807.2.14 Darwin/16.4.0 (x86_64)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.12.3",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari/6531.9 CFNetwork/454.4 Darwin/10.0.0 (i386) (MacBook4%2C1)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.6",
+      "platform": "x86",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari/8537.85.17.9.1 CFNetwork/596.6.4 Darwin/12.6.0 (x86_64) (iMac13%2C2)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.8.5",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari/6533.21.1 CFNetwork/454.11.12 Darwin/10.7.4 (x86_64) (MacBookPro8%2C1)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.6.7",
+      "platform": "x64",
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "GoogleEarth/4.2.0205.5730(Macintosh;Mac OS X (10.5.4);en;kml:2.2;client:Free;type:default)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.5.4",
+      "platform": null,
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "GoogleEarth/7.0.3.8542(Windows;Microsoft Windows (6.1.7601.1);pt;kml:2.2;client:Free;type:default)",
+    "os": {
+      "name": "Windows",
+      "short_name": "WIN",
+      "version": "7",
+      "platform": null,
+      "family": "Windows"
+    }
+  },
+  {
+    "user_agent": "Google.DriveExtension/4.2020.46208 (OS=iOS;OSVer=13.6;Manufacturer=Apple;Model=iPhone_11_Pro_Max) gzip",
+    "os": {
+      "name": "iOS",
+      "short_name": "IOS",
+      "version": "13.6",
+      "platform": null,
+      "family": "iOS"
+    }
+  },
+  {
+    "user_agent": "H10P/com.Nanoteq.QmunicateH10p;os=Apple-iOS;model=iPhone9,3;osversion=13.6/3.1.0 (belle-sip/1.6.1)",
+    "os": {
+      "name": "iOS",
+      "short_name": "IOS",
+      "version": "13.6",
+      "platform": null,
+      "family": "iOS"
+    }
+  },
+  {
+    "user_agent": "FBAV/252.1.0.30.119;FBBV/198832146;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/13.3.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]",
+    "os": {
+      "name": "iOS",
+      "short_name": "IOS",
+      "version": "13.3.1",
+      "platform": null,
+      "family": "iOS"
+    }
+  },
+  {
+    "user_agent": "com.apple.Safari.SearchHelper/16610.2.8.1.1 CFNetwork/1206 Darwin/20.1.0",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "11.0",
+      "platform": null,
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Safari5533.22.3 CFNetwork/438.16 Darwin/9.8.0 (Power%20Macintosh) (PowerBook6%2C7)",
+    "os": {
+      "name": "Mac",
+      "short_name": "MAC",
+      "version": "10.5.8",
+      "platform": null,
+      "family": "Mac"
+    }
+  },
+  {
+    "user_agent": "Opera/9.80 (Linux mips; Opera TV/4) Presto/2.11.355 Version/12.11",
+    "os": {
+      "name": "Opera TV",
+      "short_name": "OTV",
+      "version": "",
+      "platform": "MIPS",
+      "family": "GNU/Linux"
+    }
+  },
+  {
+    "user_agent": "Opera/9.80 (Linux armv7l; Opera TV Store/5581) Presto/2.12.362 Version/12.11",
+    "os": {
+      "name": "Opera TV",
+      "short_name": "OTV",
+      "version": "",
+      "platform": "ARM",
+      "family": "GNU/Linux"
+    }
+  },
+  {
+    "user_agent": "Opera/9.80 (Linux mips) Presto/2.12.407 Version/12.50 , KreaTV/12.36.2.2 (ARRIS, VMS1100, wired)",
+    "os": {
+      "name": "KreaTV",
+      "short_name": "KTV",
+      "version": "12.36.2.2",
+      "platform": "MIPS",
+      "family": "GNU/Linux"
+    }
+  },
+  {
+    "user_agent": "OPR/22.0.1481.0 OMI/4.2.12.29, KreaTV/0.0.0.0 (ARRIS, IPC1100, wired)CM[00.01]",
+    "os": {
+      "name": "KreaTV",
+      "short_name": "KTV",
+      "version": "",
+      "platform": "",
+      "family": "GNU/Linux"
     }
   }
 ]

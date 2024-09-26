@@ -2404,7 +2404,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "253.0.0.8.119"
     },
     "device": {
@@ -8378,7 +8378,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "265.0.0.14.119"
     },
     "device": {
@@ -11542,7 +11542,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "269.0.0.8.118"
     },
     "device": {

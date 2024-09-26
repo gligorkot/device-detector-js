@@ -5,13 +5,18 @@
     "version": "$1"
   },
   {
-    "regex": "WindowsMail(?:/(\\d+[\\.\\d]+))",
-    "name": "Windows Mail",
+    "regex": "^Outlook-iOS/(?:.+\\((\\d+[\\.\\d]+)\\)$)?",
+    "name": "Microsoft Outlook",
     "version": "$1"
   },
   {
-    "regex": "(?:Microsoft Outlook|MacOutlook)(?:[/ ](\\d+[\\.\\d]+))?",
+    "regex": "(?:(?:Microsoft )?Outlook|MacOutlook)(?:[/ ](\\d+[\\.\\d]+))?",
     "name": "Microsoft Outlook",
+    "version": "$1"
+  },
+  {
+    "regex": "WindowsMail(?:/(\\d+[\\.\\d]+))",
+    "name": "Windows Mail",
     "version": "$1"
   },
   {
@@ -113,5 +118,10 @@
     "regex": "Mailbird/(\\d+\\.[\\.\\d]+)/",
     "name": "Mailbird",
     "version": "$1"
+  },
+  {
+    "regex": "Yahoo%20Mail",
+    "name": "Yahoo Mail",
+    "version": ""
   }
 ]

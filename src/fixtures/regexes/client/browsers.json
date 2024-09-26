@@ -1,5 +1,23 @@
 [
   {
+    "regex": "Chrome/.+ SiteKiosk (\\d+[\\.\\d]+)",
+    "name": "SiteKiosk",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "SiteKiosk (\\d+[\\.\\d]+)",
+    "name": "SiteKiosk",
+    "version": "$1"
+  },
+  {
+    "regex": "ReqwirelessWeb/(\\d+[\\.\\d]+)",
+    "name": "Reqwireless WebViewer",
+    "version": "$1"
+  },
+  {
     "regex": "T\\+Browser/(\\d+[\\.\\d]+)",
     "name": "T+Browser",
     "version": "$1",
@@ -807,6 +825,14 @@
     }
   },
   {
+    "regex": "Hawk/QuickBrowser(?:/v?(\\d+[\\.\\d]+))?",
+    "name": "Hawk Quick Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "FreeU(?:/(\\d+[\\.\\d]+))?",
     "name": "FreeU",
     "version": "$1",
@@ -1070,6 +1096,11 @@
     "regex": "AlohaBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Aloha Browser",
     "version": "$1"
+  },
+  {
+    "regex": "Aloha/",
+    "name": "Aloha Browser",
+    "version": ""
   },
   {
     "regex": "(?:Avast(?:SecureBrowser)?|ASW|Safer)(?:/(\\d+[\\.\\d]+))?",
@@ -1512,6 +1543,14 @@
     }
   },
   {
+    "regex": "Opera%20Touch/.+CFNetwork/.+Darwin/.+(?!.*x86_64)",
+    "name": "Opera Touch",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
     "regex": "OPT/(\\d+[\\.\\d]+)",
     "name": "Opera Touch",
     "version": "$1",
@@ -1595,6 +1634,14 @@
         "15": "Blink",
         "3.5": "Elektra"
       }
+    }
+  },
+  {
+    "regex": "Opera/.+CFNetwork",
+    "name": "Opera",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
     }
   },
   {
@@ -1734,7 +1781,7 @@
     }
   },
   {
-    "regex": "(?:Maxthon(?:%20Browser)?|MxBrowser(?:-inhouse|-iPhone)?)[ /](\\d+[\\.\\d]+)",
+    "regex": "(?:Maxthon(?:%20Browser)?|MxBrowser(?:-inhouse|-iPhone)?|MXiOS)[ /](\\d+[\\.\\d]+)?",
     "name": "Maxthon",
     "version": "$1",
     "engine": {
@@ -1922,6 +1969,14 @@
     "version": ""
   },
   {
+    "regex": "UC%20Browser/(\\d+[\\.\\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)",
+    "name": "UC Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
     "regex": "Chrome/.+Tenta/(\\d+[\\.\\d]+)",
     "name": "Tenta Browser",
     "version": "$1",
@@ -2012,14 +2067,6 @@
   {
     "regex": "Mb2345Browser/(\\d+[\\.\\d]+)",
     "name": "2345 Browser",
-    "version": "$1",
-    "engine": {
-      "default": ""
-    }
-  },
-  {
-    "regex": "QtWebEngine/(\\d+[\\.\\d]+)",
-    "name": "QtWebEngine",
     "version": "$1",
     "engine": {
       "default": ""
@@ -2171,6 +2218,19 @@
       "versions": {
         "28": "Blink"
       }
+    }
+  },
+  {
+    "regex": "LG Browser(?:/(\\d+[\\.\\d]+))",
+    "name": "LG Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "QtWebEngine/(\\d+[\\.\\d]+)",
+    "name": "QtWebEngine",
+    "version": "$1",
+    "engine": {
+      "default": ""
     }
   },
   {
@@ -2437,7 +2497,23 @@
     }
   },
   {
-    "regex": "Google Earth(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?:Google Earth Pro|Google%20Earth%20Pro)(?:/(\\d+[\\.\\d]+))?",
+    "name": "Google Earth Pro",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "GoogleEarth/(\\d+[\\.\\d]+).+client:(?:Plus|Pro)",
+    "name": "Google Earth Pro",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Google ?Earth(?:/v?(\\d+[\\.\\d]+))?",
     "name": "Google Earth",
     "version": "$1",
     "engine": {
@@ -2560,11 +2636,6 @@
     "engine": {
       "default": "Text-based"
     }
-  },
-  {
-    "regex": "LG Browser(?:/(\\d+[\\.\\d]+))",
-    "name": "LG Browser",
-    "version": "$1"
   },
   {
     "regex": "LuaKit(?:/(\\d+[\\.\\d]+))?",
@@ -2695,8 +2766,24 @@
     "version": "$1"
   },
   {
+    "regex": "Opera%20Coast/(\\d+[\\.\\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)",
+    "name": "Coast",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
     "regex": "Surf(?:/(\\d+[\\.\\d]+))?",
     "name": "surf",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Safari%20Technology%20Preview/(\\d+[\\.\\d]+)",
+    "name": "Safari Technology Preview",
     "version": "$1",
     "engine": {
       "default": "WebKit"
@@ -2727,7 +2814,7 @@
     }
   },
   {
-    "regex": "Version/(\\d+[\\.\\d]+).*Safari/|Safari/?\\d+",
+    "regex": "Version/(\\d+[\\.\\d]+).*Safari/|(?:Safari|Safari(?:%20)?%E6%B5%8F%E8%A7%88%E5%99%A8)/?\\d+",
     "name": "Safari",
     "version": "$1",
     "engine": {
@@ -2771,7 +2858,7 @@
     "version": "$1"
   },
   {
-    "regex": "WAP Browser/MAUI|(?:\\w+)?Maui Wap Browser|MAUI[- ]Browser",
+    "regex": "WAP Browser/MAUI|(?:\\w*)Maui Wap Browser|MAUI[- ]Browser",
     "name": "MAUI WAP Browser",
     "version": ""
   },

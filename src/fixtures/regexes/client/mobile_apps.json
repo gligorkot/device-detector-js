@@ -20,18 +20,28 @@
     "version": "$1"
   },
   {
-    "regex": "MessengerLiteForiOS.(?:FBAV)(?:[ /]([\\d\\.]+))?",
-    "name": "Facebook Messenger Lite",
+    "regex": "(?:MessengerForiOS|MESSENGER|FB_IAB/Orca-Android).(?:FBAV)(?:[ /]([\\d\\.]+))?",
+    "name": "Facebook Messenger",
     "version": "$1"
   },
   {
-    "regex": "(?:MessengerForiOS|MESSENGER).(?:FBAV)(?:[ /]([\\d\\.]+))?",
-    "name": "Facebook Messenger",
+    "regex": "(?:mLite|MessengerLite(?:ForiOS)?).(?:FBAV)(?:[ /]([\\d\\.]+))?",
+    "name": "Facebook Messenger Lite",
     "version": "$1"
   },
   {
     "regex": "(?:GroupsForiOS).(?:FBAV)(?:[ /]([\\d\\.]+))?",
     "name": "Facebook Groups",
+    "version": "$1"
+  },
+  {
+    "regex": "FBAN/EMA.+FBAV(?:[ /]([\\d\\.]+))?",
+    "name": "Facebook Lite",
+    "version": "$1"
+  },
+  {
+    "regex": "FBAN/FBPageAdmin.+FBAV(?:[ /]([\\d\\.]+))?",
+    "name": "Meta Business Suite",
     "version": "$1"
   },
   {
@@ -65,7 +75,17 @@
     "version": ""
   },
   {
-    "regex": "MicroMessenger/([^; ]+)",
+    "regex": "Google.DriveExtension(?:/([\\d\\.]+))?",
+    "name": "Google Drive",
+    "version": "$1"
+  },
+  {
+    "regex": "MicroMessenger/([\\d\\.]+)",
+    "name": "WeChat",
+    "version": "$1"
+  },
+  {
+    "regex": "WeChat/([\\d\\.]+)",
     "name": "WeChat",
     "version": "$1"
   },
@@ -460,6 +480,11 @@
     "version": "$1"
   },
   {
+    "regex": "Skype/([\\d\\.]+)",
+    "name": "Skype",
+    "version": "$1"
+  },
+  {
     "regex": "OC/([\\d\\.]+) \\(Skype for Business\\)",
     "name": "Skype for Business",
     "version": "$1"
@@ -467,6 +492,11 @@
   {
     "regex": "iPhoneLync/([\\d\\.]+)",
     "name": "Skype for Business",
+    "version": "$1"
+  },
+  {
+    "regex": "GroupMe/([\\d\\.]+)",
+    "name": "GroupMe",
     "version": "$1"
   },
   {
@@ -590,12 +620,12 @@
     "version": "$1"
   },
   {
-    "regex": "TuneIn Radio Pro(?:[^/]+)?/(\\d+[\\.\\d]+)",
+    "regex": "TuneIn Radio Pro(?:[^/]*)/(\\d+[\\.\\d]+)",
     "name": "TuneIn Radio Pro",
     "version": "$1"
   },
   {
-    "regex": "TuneIn(?: Radio(?:[^/]+)?)?/(\\d+[\\.\\d]+)",
+    "regex": "TuneIn(?: Radio(?:[^/]*))?/(\\d+[\\.\\d]+)",
     "name": "TuneIn Radio",
     "version": "$1"
   },
@@ -647,11 +677,6 @@
   {
     "regex": "^WirtschaftsWoche-iOS-(\\d+[\\.\\d]+)",
     "name": "Wirtschafts Woche",
-    "version": "$1"
-  },
-  {
-    "regex": "^Outlook-iOS/.+\\((\\d+[\\.\\d]+)\\)$",
-    "name": "Microsoft Outlook",
     "version": "$1"
   },
   {
@@ -1098,5 +1123,135 @@
     "regex": "Quick Search TV/(\\d+\\.[\\.\\d]+)",
     "name": "Quick Search TV",
     "version": "$1"
+  },
+  {
+    "regex": "WindowsStoreSDK",
+    "name": "Microsoft Store",
+    "version": ""
+  },
+  {
+    "regex": "Asus Update/(\\d+\\.[\\.\\d]+)",
+    "name": "ASUS Updater",
+    "version": "$1"
+  },
+  {
+    "regex": "imoAndroid/(20\\d{2}.[\\.\\d]+)",
+    "name": "IMO HD Video Calls & Chat",
+    "version": "$1"
+  },
+  {
+    "regex": "imoAndroid/(\\d+\\.[\\.\\d]+)",
+    "name": "IMO International Calls & Chat",
+    "version": "$1"
+  },
+  {
+    "regex": "BingSapphire/(\\d+\\.[\\.\\d]+)",
+    "name": "Microsoft Bing Search",
+    "version": "$1"
+  },
+  {
+    "regex": ".+HiSearch/(\\d+\\.[\\.\\d]+)",
+    "name": "HiSearch",
+    "version": "$1"
+  },
+  {
+    "regex": "RDDocuments/(\\d+\\.[\\.\\d]+)",
+    "name": "RDDocuments",
+    "version": "$1"
+  },
+  {
+    "regex": "FSCDCSafe (\\d+\\.[\\.\\d]+)",
+    "name": "F-Secure SAFE",
+    "version": "$1"
+  },
+  {
+    "regex": "Twitterrific",
+    "name": "Twitterrific",
+    "version": ""
+  },
+  {
+    "regex": "UconnectLive",
+    "name": "Uconnect LIVE",
+    "version": ""
+  },
+  {
+    "regex": "Wayback%20Machine%20Extension",
+    "name": "Wayback Machine",
+    "version": ""
+  },
+  {
+    "regex": "com.Nanoteq.QmunicateH10p.+/(\\d+\\.[\\.\\d]+) \\(",
+    "name": "Q-municate",
+    "version": "$1"
+  },
+  {
+    "regex": "NET.mede",
+    "name": "NET.mede",
+    "version": ""
+  },
+  {
+    "regex": "My%20Bentley",
+    "name": "My Bentley",
+    "version": ""
+  },
+  {
+    "regex": "Skyeng%20App",
+    "name": "Skyeng",
+    "version": ""
+  },
+  {
+    "regex": "Skyeng%20Teachers",
+    "name": "Skyeng Teachers",
+    "version": ""
+  },
+  {
+    "regex": "(Millennium/|Millennium%20Corp)",
+    "name": "Bank Millenium",
+    "version": ""
+  },
+  {
+    "regex": "MBolsa",
+    "name": "MBolsa",
+    "version": ""
+  },
+  {
+    "regex": "(MEmpresas|Millennium%20Empresas)",
+    "name": "MEmpresas",
+    "version": ""
+  },
+  {
+    "regex": "OrangeRadio/(\\d+\\.[\\.\\d]+)",
+    "name": "Orange Radio",
+    "version": "$1"
+  },
+  {
+    "regex": "Radio%20Italiane/(\\d+\\.[\\.\\d]+)",
+    "name": "Radio Italiane",
+    "version": "$1"
+  },
+  {
+    "regex": "com.apple.Safari.SearchHelper/(\\d+\\.[\\.\\d]+)",
+    "name": "Safari Search Helper",
+    "version": "$1"
+  },
+  {
+    "regex": "Citrix%20Viewer",
+    "name": "Citrix Workspace",
+    "version": ""
+  },
+  {
+    "regex": "com.mercbank.s1mobileipad",
+    "name": "Mercantile Bank of Michigan",
+    "version": ""
+  },
+  {
+    "regex": "D-Stream%20Air",
+    "name": "DStream Air",
+    "version": ""
+  },
+  {
+    "regex": "ExpediaBookings",
+    "name": "Expedia",
+    "version": ""
   }
 ]

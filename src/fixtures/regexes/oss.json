@@ -1,5 +1,20 @@
 [
   {
+    "regex": "KreaTV/0.0.0.0",
+    "name": "KreaTV",
+    "version": ""
+  },
+  {
+    "regex": "KreaTV/(\\d+[\\.\\d]+)",
+    "name": "KreaTV",
+    "version": "$1"
+  },
+  {
+    "regex": "Linux (?:[^;]+); Opera TV(?: Store)?/|^Opera/\\d+\\.\\d+ \\(Linux mips",
+    "name": "Opera TV",
+    "version": ""
+  },
+  {
     "regex": "Grid OS (\\d+[\\.\\d]+)",
     "name": "GridOS",
     "version": "$1"
@@ -120,12 +135,30 @@
     "version": ""
   },
   {
+    "regex": "RemixOS|Remix (?:Pro|Mini)",
+    "name": "Remix OS",
+    "versions": [
+      {
+        "regex": "RemixOS 5",
+        "version": "1"
+      },
+      {
+        "regex": "RemixOS 6|Remix Mini",
+        "version": "2"
+      },
+      {
+        "regex": "Remix Pro",
+        "version": "3"
+      }
+    ]
+  },
+  {
     "regex": "Android Marshmallow",
     "name": "Android",
     "version": "6"
   },
   {
-    "regex": "(?:Podbean|Podimo)(?:.+)?/Android",
+    "regex": "(?:Podbean|Podimo)(?:.*)/Android",
     "name": "Android",
     "version": ""
   },
@@ -135,7 +168,7 @@
     "version": "$1"
   },
   {
-    "regex": "Pinterest for Android/.+; (\\d(?:[\\d\\.]+)?)\\)$",
+    "regex": "Pinterest for Android/.*; (\\d(?:[\\d\\.]*))\\)$",
     "name": "Android",
     "version": "$1"
   },
@@ -240,6 +273,11 @@
     "version": ""
   },
   {
+    "regex": "RokuOS/.+RokuOS (\\d+.[\\d.]+)",
+    "name": "Roku OS",
+    "version": "$1"
+  },
+  {
     "regex": "Roku(?:OS)?/(?:DVP|Pluto)?-?(\\d+[\\.\\d]+)",
     "name": "Roku OS",
     "version": "$1"
@@ -329,16 +367,24 @@
         "version": "$1"
       },
       {
-        "regex": "Web0S; Linux/SmartTV.+Chrome/68",
+        "regex": "Web0S; Linux/SmartTV.+Chr[o0]me/79",
+        "version": "6"
+      },
+      {
+        "regex": "Web0S; Linux/SmartTV.+Chr[o0]me/68",
         "version": "5"
       },
       {
-        "regex": "Web0S; Linux/SmartTV.+Chrome/53",
+        "regex": "Web0S; Linux/SmartTV.+Chr[o0]me/53",
         "version": "4"
       },
       {
-        "regex": "Web0S; Linux/SmartTV.+Chrome/38",
+        "regex": "Web0S; Linux/SmartTV.+Chr[o0]me/38",
         "version": "3"
+      },
+      {
+        "regex": "WEBOS1",
+        "version": "1"
       },
       {
         "regex": "Web0S; Linux/SmartTV.+Safari/538",
@@ -411,7 +457,7 @@
     "version": "8"
   },
   {
-    "regex": "CYGWIN_NT-6.1|Windows NT 6.1|Windows 7|win7",
+    "regex": "CYGWIN_NT-6.1|Windows NT 6.1|Windows 7|win7|Windows \\(6.1",
     "name": "Windows",
     "version": "7"
   },
@@ -471,7 +517,7 @@
     "version": ""
   },
   {
-    "regex": "Apple TV.*CPU (?:iPhone )?OS ((?:9|1[0-5])_\\d+(?:[_\\.]\\d+)*)",
+    "regex": "Apple ?TV.*CPU (?:iPhone )?OS ((?:9|1[0-5])[_\\.]\\d+(?:[_.]\\d+)*)",
     "name": "tvOS",
     "version": "$1"
   },
@@ -526,7 +572,7 @@
     "version": "$1"
   },
   {
-    "regex": "Pinterest for iOS/.+; (\\d(?:[\\d\\.]+)?)\\)$",
+    "regex": "Pinterest for iOS/.*; (\\d(?:[\\d\\.]*))[)]$",
     "name": "iOS",
     "version": "$1"
   },
@@ -536,9 +582,17 @@
     "version": "$1"
   },
   {
-    "regex": "CFNetwork/.+ Darwin/(\\d+[\\.\\d]+)(?!.*(?:x86_64|i386|PowerMac))",
+    "regex": "^(?!com.apple.Safari.SearchHelper).*CFNetwork/.+ Darwin/(\\d+[\\.\\d]+)(?!.*(?:x86_64|i386|PowerMac|Power%20Macintosh))",
     "name": "iOS",
     "versions": [
+      {
+        "regex": "Darwin/21.4.0",
+        "version": "15.4"
+      },
+      {
+        "regex": "Darwin/21.3.0",
+        "version": "15.3"
+      },
       {
         "regex": "Darwin/21.2.0",
         "version": "15.2"
@@ -799,6 +853,11 @@
     "version": "$1"
   },
   {
+    "regex": "FBMD/iPhone;.*FBSV/ ?(\\d+[\\.\\d]+);",
+    "name": "iOS",
+    "version": "$1"
+  },
+  {
     "regex": "(?:FBIOS|Messenger(?:Lite)?ForiOS).*FBSV/ ?(\\d+[\\.\\d]*);",
     "name": "iOS",
     "version": "$1"
@@ -815,6 +874,16 @@
   },
   {
     "regex": "iPhone.+; Version (\\d+[\\.\\d]+)",
+    "name": "iOS",
+    "version": "$1"
+  },
+  {
+    "regex": "OS=iOS;OSVer=(\\d+[\\.\\d]+);",
+    "name": "iOS",
+    "version": "$1"
+  },
+  {
+    "regex": "os=Apple-iOS.+osversion=(\\d+[\\.\\d]+)/",
     "name": "iOS",
     "version": "$1"
   },
@@ -844,14 +913,22 @@
     "version": ""
   },
   {
-    "regex": "CaptiveNetworkSupport",
+    "regex": "CaptiveNetworkSupport|AirPlay",
     "name": "iOS",
     "version": ""
   },
   {
-    "regex": "CFNetwork/.+ Darwin/(?:[\\d\\.]+).+(?:x86_64|i386)|(?:x86_64-apple-)?darwin(?:[\\d\\.]+)|PowerMac",
+    "regex": "CFNetwork/.+ Darwin/(?:[\\d\\.]+).+(?:x86_64|i386|Power%20Macintosh)|(?:x86_64-apple-)?darwin(?:[\\d\\.]+)|PowerMac|com.apple.Safari.SearchHelper",
     "name": "Mac",
     "versions": [
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?21.4.0",
+        "version": "12.3"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?21.3.0",
+        "version": "12.2"
+      },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?21.2.0",
         "version": "12.1"
@@ -917,6 +994,14 @@
         "version": "10.14"
       },
       {
+        "regex": "(?:x86_64-apple-)?Darwin/?18.6.0",
+        "version": "10.14.5"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?18.5.0",
+        "version": "10.14.4"
+      },
+      {
         "regex": "(?:x86_64-apple-)?Darwin/?18.2.0",
         "version": "10.14.1"
       },
@@ -965,8 +1050,12 @@
         "version": "10.12.4"
       },
       {
-        "regex": "(?:x86_64-apple-)?Darwin/?16.3.0",
+        "regex": "(?:x86_64-apple-)?Darwin/?16.4.0",
         "version": "10.12.3"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?16.3.0",
+        "version": "10.12.2"
       },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?16.2.0",
@@ -975,6 +1064,10 @@
       {
         "regex": "(?:x86_64-apple-)?Darwin/?16.1.0",
         "version": "10.12.1"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?16.0.0",
+        "version": "10.12"
       },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?15.6.0",
@@ -1017,6 +1110,10 @@
         "version": "10.10.2"
       },
       {
+        "regex": "(?:x86_64-apple-)?Darwin/?14.0.0",
+        "version": "10.10"
+      },
+      {
         "regex": "(?:x86_64-apple-)?Darwin/?13.4.0",
         "version": "10.9.5"
       },
@@ -1035,6 +1132,10 @@
       {
         "regex": "(?:x86_64-apple-)?Darwin/?13.0.0",
         "version": "10.9.0"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?12.6.0",
+        "version": "10.8.5"
       },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?12.5.0",
@@ -1085,12 +1186,16 @@
         "version": "10.6.8"
       },
       {
-        "regex": "(?:x86_64-apple-)?Darwin/?10.7.3",
+        "regex": "(?:x86_64-apple-)?Darwin/?10.7.[34]",
         "version": "10.6.7"
       },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?10.3.0",
         "version": "10.6.3"
+      },
+      {
+        "regex": "(?:x86_64-apple-)?Darwin/?10.0.0",
+        "version": "10.6"
       },
       {
         "regex": "(?:x86_64-apple-)?Darwin/?9.8.0",
@@ -1111,6 +1216,11 @@
     ]
   },
   {
+    "regex": "Macintosh;Mac OS X \\((\\d+[\\.\\d]+)\\);",
+    "name": "Mac",
+    "version": "$1"
+  },
+  {
     "regex": "Mac[ +]OS[ +]?X(?:[ /,](?:Version )?(\\d+(?:[_\\.]\\d+)+))?",
     "name": "Mac",
     "version": "$1"
@@ -1122,6 +1232,11 @@
   },
   {
     "regex": "(?:macOS[/,]|Mac-)(\\d+[\\.\\d]+)",
+    "name": "Mac",
+    "version": "$1"
+  },
+  {
+    "regex": "Macintosh; OS X (\\d+[\\.\\d]+)",
     "name": "Mac",
     "version": "$1"
   },
@@ -1261,21 +1376,6 @@
     "version": "$1"
   },
   {
-    "regex": "RemixOS 5.1.1",
-    "name": "Remix OS",
-    "version": "1"
-  },
-  {
-    "regex": "RemixOS 6.0",
-    "name": "Remix OS",
-    "version": "2"
-  },
-  {
-    "regex": "RemixOS",
-    "name": "Remix OS",
-    "version": ""
-  },
-  {
     "regex": "(?:SunOS|Solaris)(?:[/ ](\\d+[\\.\\d]+))?",
     "name": "Solaris",
     "version": "$1"
@@ -1331,9 +1431,14 @@
     "version": "$1"
   },
   {
-    "regex": "PlayStation ?([34])",
+    "regex": "PlayStation.+; Linux (\\d+[\\.\\d]+)",
     "name": "PlayStation",
     "version": "$1"
+  },
+  {
+    "regex": "PlayStation ?(\\d)(?:[/ ](?:Pro )?(\\d+[\\.\\d]+))?",
+    "name": "PlayStation",
+    "version": "$1.$2"
   },
   {
     "regex": "Xbox|KIN\\.(?:One|Two)",

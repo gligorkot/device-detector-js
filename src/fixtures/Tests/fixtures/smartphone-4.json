@@ -185,7 +185,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -2313,7 +2313,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.4.51.rdf8da56.600"
+      "version": "6.2.4.51"
     },
     "device": {
       "type": "smartphone",
@@ -2377,7 +2377,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -3167,7 +3167,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.4.49.r8d971a2.600"
+      "version": "6.2.4.49"
     },
     "device": {
       "type": "smartphone",
@@ -3187,7 +3187,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -3249,7 +3249,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -5946,8 +5946,8 @@
     },
     "client": {
       "type": "browser",
-      "name": "Chrome Webview",
-      "version": "74.0.3729.157",
+      "name": "Hawk Quick Browser",
+      "version": "2.4.30.115711",
       "engine": "Blink",
       "engine_version": ""
     },
@@ -5982,7 +5982,7 @@
     "browser_family": "Unknown"
   },
   {
-    "user_agent": "ozilla/5.0 (Linux; U; Android 8.1.0; ru-ru; Life Sky Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 Hawk/QuickBrowser/2.4.33.115728",
+    "user_agent": "Mozilla/5.0 (Linux; U; Android 8.1.0; ru-ru; Life Sky Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 Hawk/QuickBrowser/2.4.33.115728",
     "os": {
       "name": "Android",
       "version": "8.1.0",
@@ -5990,8 +5990,8 @@
     },
     "client": {
       "type": "browser",
-      "name": "Chrome Webview",
-      "version": "78.0.3904.108",
+      "name": "Hawk Quick Browser",
+      "version": "2.4.33.115728",
       "engine": "Blink",
       "engine_version": ""
     },
@@ -9287,7 +9287,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "5.3.1.67.r745169.462"
+      "version": "5.3.1.67"
     },
     "device": {
       "type": "smartphone",
@@ -9457,7 +9457,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -9477,7 +9477,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -9517,7 +9517,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.2.54.rec1912d.581"
+      "version": "6.2.2.54"
     },
     "device": {
       "type": "smartphone",
@@ -9799,7 +9799,7 @@
     "client": {
       "type": "mobile app",
       "name": "WeChat",
-      "version": "6.2.4.51.rdf8da56.600"
+      "version": "6.2.4.51"
     },
     "device": {
       "type": "smartphone",

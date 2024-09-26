@@ -7482,7 +7482,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "20.0.0.9.4"
     },
     "device": {
@@ -7564,7 +7564,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "235.0.0.5.119"
     },
     "device": {

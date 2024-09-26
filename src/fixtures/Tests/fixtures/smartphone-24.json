@@ -2114,7 +2114,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Messenger",
       "version": "288.0.0.15.118"
     },
     "device": {
@@ -3088,7 +3088,7 @@
     "browser_family": "Chrome"
   },
   {
-    "user_agent": "ozilla/5.0 (Linux; Android 5.1; Picasso) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36",
+    "user_agent": "Mozilla/5.0 (Linux; Android 5.1; Picasso) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36",
     "os": {
       "name": "Android",
       "version": "5.1",
@@ -5724,7 +5724,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "87.0.0.7.184"
     },
     "device": {
@@ -6486,7 +6486,7 @@
     },
     "client": {
       "type": "mobile app",
-      "name": "Facebook",
+      "name": "Facebook Lite",
       "version": "241.0.0.7.119"
     },
     "device": {
