@@ -25,6 +25,11 @@
     "version": "$1"
   },
   {
+    "regex": "Spicebird/(\\d+\\.[\\.\\d]+)",
+    "name": "Spicebird",
+    "version": "$1"
+  },
+  {
     "regex": "Airmail(?: (\\d+[\\.\\d]+))?",
     "name": "Airmail",
     "version": "$1"
@@ -80,7 +85,7 @@
     "version": ""
   },
   {
-    "regex": "Raindrop.io/(\\d+[\\.\\d]+)",
+    "regex": "Raindrop\\.io/(\\d+[\\.\\d]+)",
     "name": "Raindrop.io",
     "version": "$1"
   },
@@ -125,8 +130,48 @@
     "version": ""
   },
   {
-    "regex": "eM Client/(\\d+\\.[\\.\\d]+)",
+    "regex": "jp.co.yahoo.ymail/([\\d\\.]+)",
+    "name": "Yahoo! Mail",
+    "version": "$1"
+  },
+  {
+    "regex": "eM ?Client/(\\d+\\.[\\.\\d]+)",
     "name": "eM Client",
     "version": "$1"
+  },
+  {
+    "regex": "NaverMailApp/(\\d+\\.[\\.\\d]+)",
+    "name": "NAVER Mail",
+    "version": "$1"
+  },
+  {
+    "regex": "^Mail/([\\d\\.]+)",
+    "name": "Apple Mail",
+    "version": "$1"
+  },
+  {
+    "regex": "Foxmail/(\\d+[\\.\\d]+)",
+    "name": "Foxmail",
+    "version": "$1"
+  },
+  {
+    "regex": "MailMaster(?:PC|_Android_Mobile)?/(\\d+[\\.\\d]+)",
+    "name": "Mail Master",
+    "version": "$1"
+  },
+  {
+    "regex": "BlueMail/(\\d+[\\.\\d]+)",
+    "name": "BlueMail",
+    "version": "$1"
+  },
+  {
+    "regex": "mailapp/(\\d+\\.[\\.\\d]+)",
+    "name": "mailapp",
+    "version": "$1"
+  },
+  {
+    "regex": "Android-Gmail",
+    "name": "Gmail",
+    "version": ""
   }
 ]

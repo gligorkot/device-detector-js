@@ -28,7 +28,7 @@
         "model": "iPod Touch 6"
       },
       {
-        "regex": "(?:Apple-)?iPod9[C,_]?1",
+        "regex": "(?:Apple-)?iPod9[C,_]?1|iPodTouch7",
         "model": "iPod Touch 7"
       },
       {
@@ -51,7 +51,7 @@
         "model": "M11 Plus LTD"
       },
       {
-        "regex": "M(1[57])",
+        "regex": "FiiO M(1[157]|6)",
         "model": "M$1"
       }
     ]
@@ -106,7 +106,7 @@
     "model": "$1"
   },
   "SONOS": {
-    "regex": "Sonos/.+\\((?:ZP.+)\\)|Sonos;",
+    "regex": "(?:Sonos/.+\\((?:ZP.+)\\)|Sonos;)",
     "device": "portable media player",
     "models": [
       {
@@ -114,12 +114,32 @@
         "model": "$1"
       },
       {
-        "regex": "Sonos;Play5;",
-        "model": "Play:5"
+        "regex": "Sonos;Beam;",
+        "model": "Beam"
+      },
+      {
+        "regex": "Sonos;Roam;",
+        "model": "Roam"
+      },
+      {
+        "regex": "Sonos;Bookshelf;",
+        "model": "Bookshelf"
+      },
+      {
+        "regex": "Sonos;Move;",
+        "model": "Move"
+      },
+      {
+        "regex": "Sonos;Play(\\d);",
+        "model": "Play:$1"
       },
       {
         "regex": "Sonos;One;",
         "model": "One"
+      },
+      {
+        "regex": "Sonos;OneSL",
+        "model": "OneSL"
       }
     ]
   },
@@ -132,5 +152,25 @@
         "model": "$1"
       }
     ]
+  },
+  "Sylvania": {
+    "regex": "(SLTDVD102[34])",
+    "device": "portable media player",
+    "model": "$1"
+  },
+  "KuGou": {
+    "regex": "KuGou[_ -](P5)",
+    "device": "portable media player",
+    "model": "$1"
+  },
+  "Surfans": {
+    "regex": "(Y57A)(?:[);/ ]|$)",
+    "device": "portable media player",
+    "model": "$1"
+  },
+  "Oilsky": {
+    "regex": "Oilsky (M501)(?:[);/ ]|$)",
+    "device": "portable media player",
+    "model": "$1"
   }
 }

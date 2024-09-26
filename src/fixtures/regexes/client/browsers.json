@@ -1,5 +1,693 @@
 [
   {
+    "regex": "RCATorExplorer",
+    "name": "RCA Tor Explorer",
+    "version": ""
+  },
+  {
+    "regex": "TQBrowser",
+    "name": "TQ Browser",
+    "version": ""
+  },
+  {
+    "regex": "XXXAndroidApp",
+    "name": "XnBrowse",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "ProxyFox",
+    "name": "ProxyFox",
+    "version": ""
+  },
+  {
+    "regex": "PrivacyBrowser",
+    "name": "Privacy Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "TUSK/(\\d+[\\.\\d]+)",
+    "name": "TUSK",
+    "version": "$1"
+  },
+  {
+    "regex": "Dezor/(\\d+[\\.\\d]+)",
+    "name": "Dezor",
+    "version": "$1"
+  },
+  {
+    "regex": "OJR Browser/([\\d\\.]+)",
+    "name": "OJR Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "SecureBrowser/([\\d\\.]+)",
+    "name": "AppTec Secure Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Veera/([\\d\\.]+)",
+    "name": "Veera",
+    "version": "$1"
+  },
+  {
+    "regex": "Ninesky(?:-android-mobile)?/([\\d\\.]+)",
+    "name": "Ninesky",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Perk/([\\d\\.]+)",
+    "name": "Perk",
+    "version": "$1"
+  },
+  {
+    "regex": "Presearch \\(Tempest\\)",
+    "name": "Presearch",
+    "version": ""
+  },
+  {
+    "regex": "QtWeb Internet Browser(?:/(\\d+[\\.\\d]+))?",
+    "name": "QtWeb",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "UPhoneWebBrowser(\\d+[\\.\\d]+)",
+    "name": "UPhone Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "MIB/(\\d+[\\.\\d]+)",
+    "name": "Motorola Internet Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "iNet Browser(?: (\\d+[\\.\\d]+))?",
+    "name": "iNet Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Prism/([\\d\\.]+)",
+    "name": "Prism",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "Awesomium/([\\d\\.]+)",
+    "name": "Awesomium",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Roccat(?:/(\\d+[\\.\\d]+))?",
+    "name": "Roccat",
+    "version": "$1"
+  },
+  {
+    "regex": "Swiftweasel(?:/(\\d+[\\.\\d]+))?",
+    "name": "Swiftweasel",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "wkbrowser (\\d+[\\.\\d]+)",
+    "name": "Wukong Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "KUN/(\\d+[\\.\\d]+)",
+    "name": "KUN",
+    "version": "$1"
+  },
+  {
+    "regex": "NaenaraBrowser(?:/(\\d+[\\.\\d]+))?",
+    "name": "Naenara Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "nook browser(?:/(\\d+[\\.\\d]+))?",
+    "name": "NOOK Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "xChaos_Arachne/5\\.(\\d+\\.[\\.\\d]+)",
+    "name": "Arachne",
+    "version": "$1"
+  },
+  {
+    "regex": "WeltweitimnetzBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "Weltweitimnetz Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "(?:Ladybird|LibWeb\\+LibJS/.*Browser)/(\\d+\\.[\\.\\d]+)",
+    "name": "Ladybird",
+    "version": "$1",
+    "engine": {
+      "default": "LibWeb"
+    }
+  },
+  {
+    "regex": "Kitt/(\\d+\\.[\\.\\d]+)",
+    "name": "Kitt",
+    "version": "$1"
+  },
+  {
+    "regex": "sppm_bizbrowser",
+    "name": "BizBrowser",
+    "version": ""
+  },
+  {
+    "regex": "SkyLeap/(\\d+\\.[\\.\\d]+)",
+    "name": "SkyLeap",
+    "version": "$1"
+  },
+  {
+    "regex": "MaxBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "MaxBrowser",
+    "version": "$1"
+  },
+  {
+    "regex": "YouBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "YouBrowser",
+    "version": "$1"
+  },
+  {
+    "regex": "MixerBox-Browser",
+    "name": "MixerBox AI",
+    "version": ""
+  },
+  {
+    "regex": "EudoraWeb (\\d+[\\.\\d]+)",
+    "name": "EudoraWeb",
+    "version": "$1"
+  },
+  {
+    "regex": "Eolie",
+    "name": "Eolie",
+    "version": ""
+  },
+  {
+    "regex": "^w3m/(\\d+[\\.\\d]+)",
+    "name": "w3m",
+    "version": "$1",
+    "engine": {
+      "default": "Text-based"
+    }
+  },
+  {
+    "regex": "Classilla/",
+    "name": "Classilla",
+    "version": "$1",
+    "engine": {
+      "default": "Clecko"
+    }
+  },
+  {
+    "regex": "WebianShell/(\\d+[\\.\\d]+)",
+    "name": "Webian Shell",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "Vonkeror(?:/(\\d+[\\.\\d]+))?",
+    "name": "Vonkeror",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "Wyzo/(\\d+\\.[\\.\\d]+)",
+    "name": "Wyzo",
+    "version": "$1"
+  },
+  {
+    "regex": "Liri/(\\d+\\.[\\.\\d]+)",
+    "name": "Liri Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Columbus/(\\d+\\.[\\.\\d]+)",
+    "name": "Columbus Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "GreenBrowser",
+    "name": "GreenBrowser",
+    "version": "",
+    "engine": {
+      "default": "Trident"
+    }
+  },
+  {
+    "regex": "K-Ninja/(\\d+\\.[\\.\\d]+)",
+    "name": "K-Ninja",
+    "version": "$1"
+  },
+  {
+    "regex": "^PB(\\d+\\.[\\.\\d]+)",
+    "name": "PirateBrowser",
+    "version": "$1"
+  },
+  {
+    "regex": "EastBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "East Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Qiyu/(\\d+\\.[\\.\\d]+)",
+    "name": "Qiyu",
+    "version": "$1"
+  },
+  {
+    "regex": "WebDiscover/(\\d+\\.[\\.\\d]+)",
+    "name": "WebDiscover",
+    "version": "$1"
+  },
+  {
+    "regex": "LeganBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "Legan Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Acoo Browser",
+    "name": "Acoo Browser",
+    "version": "",
+    "engine": {
+      "default": "Trident"
+    }
+  },
+  {
+    "regex": "Aplix_.*_browser/(\\d+\\.[\\.\\d]+)",
+    "name": "Aplix",
+    "version": "$1"
+  },
+  {
+    "regex": "Mogok/(\\d+\\.[\\.\\d]+)",
+    "name": "Mogok Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "(?:IOS)?TrueLocationBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "TrueLocation Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "DiigoBrowser$",
+    "name": "Diigo Browser",
+    "version": ""
+  },
+  {
+    "regex": ".*OnBrowserLite(\\d+\\.[\\.\\d]+)",
+    "name": "OnBrowser Lite",
+    "version": "$1"
+  },
+  {
+    "regex": "Bluefy/(\\d+\\.[\\.\\d]+)",
+    "name": "Bluefy",
+    "version": "$1"
+  },
+  {
+    "regex": "(?:Novarra-Vision|Vision-Browser)(?:/(\\d+[\\.\\d]+))?",
+    "name": "Vision Mobile Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "SurfyBrowser/(\\d+[\\.\\d]+)",
+    "name": "Surfy Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "18\\+/([\\d\\.]+)",
+    "name": "18+ Privacy Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "GoKu-iOS/(\\d+[\\.\\d]+)",
+    "name": "GoKu",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Ask\\.com Mobile Browser",
+    "name": "Ask.com",
+    "version": ""
+  },
+  {
+    "regex": "Bang/(\\d+[\\.\\d]+)",
+    "name": "Bang",
+    "version": "$1"
+  },
+  {
+    "regex": "ManagedBrowser(?:/(\\d+[\\.\\d]+))?",
+    "name": "Intune Managed Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Lotus/(\\d+[\\.\\d]+)",
+    "name": "Lotus",
+    "version": "$1"
+  },
+  {
+    "regex": "JuziBrowser",
+    "name": "JUZI Browser",
+    "version": ""
+  },
+  {
+    "regex": "Ninetails(?:/(\\d+[\\.\\d]+))?",
+    "name": "Ninetails",
+    "version": "$1"
+  },
+  {
+    "regex": "Wexond(?:/(\\d+[\\.\\d]+))?",
+    "name": "Wexond",
+    "version": "$1"
+  },
+  {
+    "regex": "catalyst(?:/(\\d+[\\.\\d]+))?",
+    "name": "Catalyst",
+    "version": "$1"
+  },
+  {
+    "regex": "Impervious(?:/(\\d+[\\.\\d]+))?",
+    "name": "Impervious Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "RakutenBrowser(?:/(\\d+[\\.\\d]+))?",
+    "name": "Rakuten Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "RakutenWebSearch(?:/(\\d+[\\.\\d]+))?",
+    "name": "Rakuten Web Search",
+    "version": "$1"
+  },
+  {
+    "regex": "VibeMate(?:/(\\d+[\\.\\d]+))?",
+    "name": "VibeMate",
+    "version": "$1"
+  },
+  {
+    "regex": "yixia\\.browser/com\\.donerbrowser\\.app/",
+    "name": "Colom Browser",
+    "version": ""
+  },
+  {
+    "regex": "tararia/(\\d+\\.[\\.\\d]+)",
+    "name": "tararia",
+    "version": "$1"
+  },
+  {
+    "regex": "SberBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "SberBrowser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Raspbian Chromium/(?:(\\d+[\\.\\d]+))?",
+    "name": "Raspbian Chromium",
+    "version": "$1"
+  },
+  {
+    "regex": "Quick Search TV(?:/(?:Wild Moon Edition )?(\\d+[\\.\\d]+))?",
+    "name": "Quick Search TV",
+    "version": "$1"
+  },
+  {
+    "regex": "Skye/(\\d+\\.[\\.\\d]+)",
+    "name": "Skye",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "VD/\\d+",
+    "name": "VD Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "\\[(?:HB/29|PB/(?:66|81))\\]",
+    "name": "SecureX",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "\\[HS/\\d+\\]",
+    "name": "HotBrowser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "\\[PB/\\d+\\]",
+    "name": "Proxy Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "^Normalized (?:iPad|iPhone) \\(iOS Safari\\)",
+    "name": "Onion Browser",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "fGet/",
+    "name": "fGet",
+    "version": ""
+  },
+  {
+    "regex": "Nuviu/(?:(\\d+[\\.\\d]+))?",
+    "name": "Nuviu",
+    "version": "$1"
+  },
+  {
+    "regex": "DoCoMo/(?:(\\d+[\\.\\d]+))?",
+    "name": "DoCoMo",
+    "version": "$1"
+  },
+  {
+    "regex": "com\\.airfind\\.browser/(?:(\\d+[\\.\\d]+))?",
+    "name": "Airfind Secure Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "ArcMobile2(?:/(\\d+\\.[\\.\\d]+);)?",
+    "name": "Arc",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Nuanti(?:Meta)?/(\\d+\\.[\\.\\d]+)",
+    "name": "Nuanti Meta",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "RokuBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "Roku Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "PicoBrowser/(\\d+\\.[\\.\\d]+)",
+    "name": "PICO Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Alva/(\\d+\\.[\\.\\d]+)",
+    "name": "ALVA",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Norton/(\\d+\\.[\\.\\d]+)",
+    "name": "Norton Private Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Odd/(\\d+\\.[\\.\\d]+)",
+    "name": "Odd Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Safari/537\\.36 (?:Browser|Navegador)",
+    "name": "APN Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "YAGI/(\\d+\\.[\\.\\d]+)",
+    "name": "YAGI",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "InspectBrowser",
+    "name": "Inspect Browser",
+    "version": ""
+  },
+  {
+    "regex": "Keepsafe Browser(?:/(\\d+[\\.\\d]+))?",
+    "name": "Keepsafe Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "(.*)Vast Browser/(\\d+\\.[\\.\\d]+)",
+    "name": "Vast Browser",
+    "version": "$2",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "bloket",
+    "name": "Bloket",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "(.*)U Browser(\\d+\\.[\\.\\d]+)",
+    "name": "U Browser",
+    "version": "$2",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+).+TeslaBrowser/",
+    "name": "Tesla Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+).+Sparrow",
+    "name": "Viasat Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit",
+      "versions": {
+        "28": "Blink"
+      }
+    }
+  },
+  {
+    "regex": "Sparrow/.+CFNetwork",
+    "name": "Viasat Browser",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Lilo/(\\d+\\.[\\.\\d]+)",
+    "name": "Lilo",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Lilo/.+CFNetwork",
+    "name": "Lilo",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "lexi/(\\d+[\\.\\d]+)",
+    "name": "Lexi Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Floorp/(\\d+[\\.\\d]+)",
+    "name": "Floorp",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "SurfBrowser/(\\d+[\\.\\d]+)",
+    "name": "Surf Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "Decentr",
     "name": "Decentr",
     "version": "",
@@ -32,15 +720,12 @@
     }
   },
   {
-    "regex": "Navegador",
-    "name": "Navegador",
-    "version": "",
-    "engine": {
-      "default": "Blink"
-    }
+    "regex": "\\d+/tclwebkit(?:\\d+[\\.\\d]*)",
+    "name": "BrowseHere",
+    "version": ""
   },
   {
-    "regex": "HiBrowser/(\\d+[\\.\\d]+)",
+    "regex": "HiBrowser/v?(\\d+[\\.\\d]+)",
     "name": "Hi Browser",
     "version": "$1",
     "engine": {
@@ -73,6 +758,14 @@
   {
     "regex": "T\\+Browser/(\\d+[\\.\\d]+)",
     "name": "T+Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Private Browser/(\\d+[\\.\\d]+) Chrome/",
+    "name": "Secure Private Browser",
     "version": "$1",
     "engine": {
       "default": "Blink"
@@ -179,7 +872,7 @@
     "name": "Edge WebView",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
@@ -247,7 +940,7 @@
     }
   },
   {
-    "regex": "Chrome/(\\d+[\\.\\d]+).+\\(Chromium GOST\\)",
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+) .*\\(Chromium GOST\\)",
     "name": "Chromium GOST",
     "version": "$1",
     "engine": {
@@ -282,7 +975,7 @@
     }
   },
   {
-    "regex": "Chrome/(\\d+[\\.\\d]+).+AgentWeb.+UCBrowser",
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+) .*AgentWeb.+UCBrowser",
     "name": "CoolBrowser",
     "version": "$1",
     "engine": {
@@ -316,7 +1009,15 @@
     "version": "$1"
   },
   {
-    "regex": "qutebrowser/(\\d+[\\.\\d]+).+Chrome",
+    "regex": "PiBrowser/(\\d+[\\.\\d]+)",
+    "name": "Pi Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "qutebrowser/(\\d+\\.[\\.\\d]+) .*Chrome",
     "name": "Qutebrowser",
     "version": "$1",
     "engine": {
@@ -358,7 +1059,7 @@
     "version": "$1"
   },
   {
-    "regex": "GinxDroidBrowser/(\\d+[\\.\\d]+)",
+    "regex": "GinxDroid(?:Browser)?/(\\d+[\\.\\d]+)",
     "name": "GinxDroid Browser",
     "version": "$1",
     "engine": {
@@ -366,8 +1067,8 @@
     }
   },
   {
-    "regex": "AviraScout/(\\d+[\\.\\d]+)",
-    "name": "Avira Scout",
+    "regex": "Avira(?:Scout)?/(\\d+[\\.\\d]+)",
+    "name": "Avira Secure Browser",
     "version": "$1",
     "engine": {
       "default": "Blink"
@@ -408,6 +1109,14 @@
     "version": "$1"
   },
   {
+    "regex": "BanglaBrowser/(\\d+\\.[.\\d]+)",
+    "name": "Bangla Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "Cornowser/(\\d+[\\.\\d]+)",
     "name": "Cornowser",
     "version": "$1",
@@ -419,6 +1128,14 @@
     "regex": "Orca/(\\d+[\\.\\d]+)",
     "name": "Orca",
     "version": "$1"
+  },
+  {
+    "regex": "Android (?:[\\d\\.]+;) ?(?:[^;]+;)? Flow\\) AppleWebKit/537.+Chrome/\\d{3}",
+    "name": "Flow Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
   },
   {
     "regex": "Flow/(?:(\\d+[\\.\\d]+))",
@@ -499,6 +1216,14 @@
   {
     "regex": "Tbrowser/(\\d+[\\.\\d]+)",
     "name": "T-Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "com\\.tcl\\.browser",
+    "name": "BrowseHere",
     "version": "$1",
     "engine": {
       "default": "Blink"
@@ -622,6 +1347,11 @@
     "version": "$1"
   },
   {
+    "regex": "Cliqz",
+    "name": "Cliqz",
+    "version": ""
+  },
+  {
     "regex": "Firefox/.*(?:Turkcell-)?YaaniBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Yaani Browser",
     "version": "$1",
@@ -720,9 +1450,17 @@
     }
   },
   {
-    "regex": "AirWatch Browser v(?:(\\d+[\\.\\d]+))?",
+    "regex": "(?:AirWatch Browser v|AirWatchBrowser/)(?:(\\d+[\\.\\d]+))?",
     "name": "VMware AirWatch",
     "version": "$1"
+  },
+  {
+    "regex": "AOL (\\d+[\\.\\d]+)",
+    "name": "AOL Explorer",
+    "version": "$1",
+    "engine": {
+      "default": "Trident"
+    }
   },
   {
     "regex": "ADG/(?:(\\d+[\\.\\d]+))?",
@@ -752,7 +1490,18 @@
   {
     "regex": "Atom/(?:(\\d+[\\.\\d]+))?",
     "name": "Atom",
-    "version": "$1"
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Wolvic/(\\d+\\.[.\\d]+)",
+    "name": "Wolvic",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
   },
   {
     "regex": "Mobile VR.+Firefox",
@@ -771,6 +1520,14 @@
     }
   },
   {
+    "regex": "AT/(\\d+[\\.\\d]+)",
+    "name": "AVG Secure Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "Start/(?:(\\d+[\\.\\d]+))?",
     "name": "START Internet Browser",
     "version": "$1"
@@ -781,9 +1538,12 @@
     "version": "$1"
   },
   {
-    "regex": "com.airfind.deltabrowser(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?:com\\.airfind\\.deltabrowser|AirSearch)(?:/(\\d+[\\.\\d]+))?",
     "name": "Delta Browser",
-    "version": "$1"
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
   },
   {
     "regex": "(?:Ordissimo|webissimo3)(?:/(\\d+[\\.\\d]+))?",
@@ -949,11 +1709,14 @@
   {
     "regex": "OculusBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Oculus Browser",
-    "version": "$1"
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
   },
   {
-    "regex": "Jio(?:Browser|Pages)(?:/(\\d+[\\.\\d]+))?",
-    "name": "Jio Browser",
+    "regex": "Jio(?:Browser|Pages|Sphere)(?:/(\\d+[\\.\\d]+))?",
+    "name": "JioSphere",
     "version": "$1",
     "engine": {
       "default": "Blink"
@@ -976,6 +1739,14 @@
     }
   },
   {
+    "regex": "SlimBoat/(?:(\\d+[\\.\\d]+))",
+    "name": "SlimBoat",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "Slimjet/(?:(\\d+[\\.\\d]+))",
     "name": "Slimjet",
     "version": "$1",
@@ -984,7 +1755,7 @@
     }
   },
   {
-    "regex": "7Star/(?:(\\d+[\\.\\d]+))",
+    "regex": "(?:7Star|Kuaiso)/(?:(\\d+[\\.\\d]+))",
     "name": "7Star",
     "version": "$1",
     "engine": {
@@ -1016,6 +1787,11 @@
     }
   },
   {
+    "regex": "ZTE ?Browser/",
+    "name": "ZTE Browser",
+    "version": "$1"
+  },
+  {
     "regex": "VivoBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "vivo Browser",
     "version": "$1"
@@ -1042,11 +1818,19 @@
     }
   },
   {
+    "regex": "Chrome/.*QwantMobile(?:/(\\d+[\\.\\d]+))?",
+    "name": "Qwant Mobile",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "QwantMobile(?:/(\\d+[\\.\\d]+))?",
     "name": "Qwant Mobile",
     "version": "$1",
     "engine": {
-      "default": "Gecko"
+      "default": ""
     }
   },
   {
@@ -1066,6 +1850,14 @@
     }
   },
   {
+    "regex": "Chrome/.+ AOLShield(?:/(\\d+[\\.\\d]+))?",
+    "name": "AOL Shield Pro",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "AOLShield(?:/(\\d+[\\.\\d]+))?",
     "name": "AOL Shield",
     "version": "$1",
@@ -1074,7 +1866,7 @@
     }
   },
   {
-    "regex": "(?<!motorola )Edge[ /](\\d+[\\.\\d]+)",
+    "regex": "(?<!motorola |; )Edge[ /](\\d+[\\.\\d]+)",
     "name": "Microsoft Edge",
     "version": "$1",
     "engine": {
@@ -1106,24 +1898,26 @@
     }
   },
   {
-    "regex": "QIHU 360[ES]E",
-    "name": "360 Browser",
-    "version": ""
+    "regex": "QIHU 360[ES]E|QihooBrowserHD/(\\d+[.\\d]+)",
+    "name": "360 Secure Browser",
+    "version": "$1"
   },
   {
-    "regex": "360 Aphone Browser(?: \\((\\d+[\\.\\d]+)(?:beta)?\\))?",
+    "regex": "Chrome.+Safari/537\\.36/(\\d+[.\\d]+)$",
+    "name": "360 Secure Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "360 Aphone Browser(?:[ /]?\\(?(\\d+[.\\d]+)(?:beta)?\\)?)?",
     "name": "360 Phone Browser",
-    "version": "$1",
-    "engine": {
-      "default": "WebKit"
-    }
+    "version": "$1"
   },
   {
     "regex": "SailfishBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Sailfish Browser",
     "version": "$1",
     "engine": {
-      "default": "Gecko"
+      "default": ""
     }
   },
   {
@@ -1159,6 +1953,14 @@
     }
   },
   {
+    "regex": "VertexSurf/(\\d+\\.[.\\d]+)",
+    "name": "Vertex Surf",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "Chrome/.+ AlohaBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Aloha Browser",
     "version": "$1",
@@ -1167,7 +1969,7 @@
     }
   },
   {
-    "regex": "AlohaBrowser(?:/(\\d+[\\.\\d]+))?",
+    "regex": "AlohaBrowser(?:App)?(?:/(\\d+[\\.\\d]+))?",
     "name": "Aloha Browser",
     "version": "$1"
   },
@@ -1243,7 +2045,7 @@
     "version": "$1"
   },
   {
-    "regex": "Chrome/(\\d+[\\.\\d]+).*MRCHROME",
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+) .*MRCHROME",
     "name": "Amigo",
     "version": "$1",
     "engine": {
@@ -1264,7 +2066,15 @@
     "version": "$1"
   },
   {
-    "regex": "Brave(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Chrome/(\\d+\\.[\\.\\d]+).*Brave/",
+    "name": "Brave",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Brave(?: Chrome)?(?:/(\\d+[\\.\\d]+))?",
     "name": "Brave",
     "version": "$1",
     "engine": {
@@ -1274,7 +2084,13 @@
   {
     "regex": "Iridium(?:/(\\d+[\\.\\d]+))?",
     "name": "Iridium",
-    "version": "$1"
+    "version": "$1",
+    "engine": {
+      "default": "WebKit",
+      "versions": {
+        "28": "Blink"
+      }
+    }
   },
   {
     "regex": "Iceweasel(?:/(\\d+[\\.\\d]+))?",
@@ -1422,8 +2238,80 @@
     }
   },
   {
-    "regex": "Firefox/(\\d+[\\.\\d]+).*\\(Swiftfox\\)",
+    "regex": "Firefox/(\\d+\\.[\\.\\d]+).*\\(Swiftfox\\)",
     "name": "Swiftfox",
+    "version": "$1",
+    "engine": {
+      "default": "Gecko"
+    }
+  },
+  {
+    "regex": "UCBrowserHD/(\\d[\\d\\.]+)",
+    "name": "UC Browser HD",
+    "version": "$1"
+  },
+  {
+    "regex": "UCMini(?:[ /]?(\\d+[\\.\\d]+))?",
+    "name": "UC Browser Mini",
+    "version": "$1"
+  },
+  {
+    "regex": "UC[ ]?Browser.* \\(UCMini\\)",
+    "name": "UC Browser Mini",
+    "version": ""
+  },
+  {
+    "regex": "Chrome.+uc mini browser(\\d+[\\.\\d]+)?",
+    "name": "UC Browser Mini",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "UCTurbo(?:[ /]?(\\d+[\\.\\d]+))?",
+    "name": "UC Browser Turbo",
+    "version": "$1"
+  },
+  {
+    "regex": "UC[ ]?Browser.* \\(UCTurbo\\)",
+    "name": "UC Browser Turbo",
+    "version": ""
+  },
+  {
+    "regex": "UC[ ]?Browser(?:[ /]?(\\d+[\\.\\d]+))?",
+    "name": "UC Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "UCWEB(?:[ /]?(\\d+[\\.\\d]+))?",
+    "name": "UC Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "UC AppleWebKit",
+    "name": "UC Browser",
+    "version": ""
+  },
+  {
+    "regex": "UC%20Browser/(\\d+[\\.\\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)",
+    "name": "UC Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "Chrome.+UC Browser(\\d+[\\.\\d]+)",
+    "name": "UC Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Firefox.+UCKai/(\\d+[\\.\\d]+)",
+    "name": "UC Browser",
     "version": "$1",
     "engine": {
       "default": "Gecko"
@@ -1462,7 +2350,7 @@
     }
   },
   {
-    "regex": "(?!.*Opera[ /])Firefox(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?!.*Opera[ /])Firefox(?:[ /](\\d+[\\.\\d]+))?",
     "name": "Firefox",
     "version": "$1",
     "engine": {
@@ -1470,7 +2358,7 @@
     }
   },
   {
-    "regex": "(?:BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\\d+[\\.\\d]+)",
+    "regex": "(?:BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)[ /](\\d+[\\.\\d]+)",
     "name": "Firefox",
     "version": "$1",
     "engine": {
@@ -1552,39 +2440,6 @@
     "version": ""
   },
   {
-    "regex": "UCBrowserHD/(\\d[\\d\\.]+)",
-    "name": "UC Browser HD",
-    "version": "$1"
-  },
-  {
-    "regex": "UCMini(?:[ /]?(\\d+[\\.\\d]+))?",
-    "name": "UC Browser Mini",
-    "version": "$1"
-  },
-  {
-    "regex": "UC[ ]?Browser.* \\(UCMini\\)",
-    "name": "UC Browser Mini",
-    "version": ""
-  },
-  {
-    "regex": "Chrome.+uc mini browser(\\d+[\\.\\d]+)?",
-    "name": "UC Browser Mini",
-    "version": "$1",
-    "engine": {
-      "default": "Blink"
-    }
-  },
-  {
-    "regex": "UCTurbo(?:[ /]?(\\d+[\\.\\d]+))?",
-    "name": "UC Browser Turbo",
-    "version": "$1"
-  },
-  {
-    "regex": "UC[ ]?Browser.* \\(UCTurbo\\)",
-    "name": "UC Browser Turbo",
-    "version": ""
-  },
-  {
     "regex": "Chrome/.+ OP(?:RG)?X(?:/(\\d+[\\.\\d]+))?",
     "name": "Opera GX",
     "version": "$1",
@@ -1601,7 +2456,15 @@
     }
   },
   {
-    "regex": "(?:Opera Tablet.*Version|Opera/.+Opera Mobi.+Version|Mobile.+OPR)/(\\d+[\\.\\d]+)",
+    "regex": "Opera%20GX/.+CFNetwork/.+Darwin/",
+    "name": "Opera GX",
+    "version": "",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "(?:Opera Tablet.*Version|Opera/.+(?<!SymbOS; )Opera Mobi.+Version|Mobile.+OPR)/(\\d+[\\.\\d]+)",
     "name": "Opera Mobile",
     "version": "$1",
     "engine": {
@@ -1646,13 +2509,10 @@
   {
     "regex": "OPT/(\\d+[\\.\\d]+)",
     "name": "Opera Touch",
-    "version": "$1",
-    "engine": {
-      "default": "Blink"
-    }
+    "version": "$1"
   },
   {
-    "regex": "Opera/(\\d+[\\.\\d]+).+Opera Mobi",
+    "regex": "Opera/(\\d+\\.[\\.\\d]+) .*(?<!SymbOS; )Opera Mobi",
     "name": "Opera Mobile",
     "version": "$1",
     "engine": {
@@ -1706,7 +2566,7 @@
     }
   },
   {
-    "regex": "(?:Opera|OPR)[/ ](?:9.80.*Version/)?(\\d+[\\.\\d]+).+Edition Next",
+    "regex": "(?:Opera|OPR)[/ ](?:9\\.80.*Version/)?(\\d+\\.[\\.\\d]+) .*Edition Next",
     "name": "Opera Next",
     "version": "$1",
     "engine": {
@@ -1717,7 +2577,7 @@
     }
   },
   {
-    "regex": "(?:Opera[/ ]?|OPR[/ ])(?:9.80.*Version/)?(\\d+[\\.\\d]+)",
+    "regex": "(?:Opera[/ ]?|OPR[/ ])(?:9\\.80.*Version/)?(\\d+[\\.\\d]+)",
     "name": "Opera",
     "version": "$1",
     "engine": {
@@ -1762,7 +2622,7 @@
     }
   },
   {
-    "regex": "(?:Comodo[ _])?Dragon(?!fruit)(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?:Comodo[ _])?Dragon/(\\d+[\\.\\d]+)",
     "name": "Comodo Dragon",
     "version": "$1",
     "engine": {
@@ -1800,6 +2660,11 @@
     }
   },
   {
+    "regex": "bdhonorbrowser/(\\d+[\\.\\d]+)",
+    "name": "HONOR Browser",
+    "version": "$1"
+  },
+  {
     "regex": "(?:baidubrowser|bdbrowser(?:(?:hd)?_i18n)?|FlyFlow|BaiduHD)(?:[/ ](\\d+[\\.\\d]*))?",
     "name": "Baidu Browser",
     "version": "$1"
@@ -1810,8 +2675,32 @@
     "version": "$1"
   },
   {
+    "regex": "YaBrowser(?:/(\\d+[\\.\\d]*)) YaApp_iOS",
+    "name": "Yandex Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
+    "regex": "iP(?:hone|ad).*YaBrowser(?:/(\\d+[\\.\\d]*))",
+    "name": "Yandex Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
+    }
+  },
+  {
     "regex": "YaBrowser(?:/(\\d+[\\.\\d]*)) \\(lite\\)?",
     "name": "Yandex Browser Lite",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "YaBrowser/(\\d+[\\.\\d]*).*corp",
+    "name": "Yandex Browser Corp",
     "version": "$1",
     "engine": {
       "default": "Blink"
@@ -1834,7 +2723,7 @@
     }
   },
   {
-    "regex": "Vivaldi(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Viv(?:aldi)?/(\\d+[\\.\\d]+)",
     "name": "Vivaldi",
     "version": "$1",
     "engine": {
@@ -1858,7 +2747,7 @@
     }
   },
   {
-    "regex": "Midori(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Midori(?:[ /](\\d+[\\.\\d]+))?",
     "name": "Midori",
     "version": "$1",
     "engine": {
@@ -1871,13 +2760,21 @@
     "version": "$1"
   },
   {
-    "regex": "Chrome.+Maxthon(?:.+\\(portable\\))?/(\\d+[\\.\\d]+)",
+    "regex": "Chrome.+Maxthon/\\d{4}",
+    "name": "Maxthon",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "Chrome.+(?:MxBrowser|Maxthon)(?:.+\\(portable\\))?/(\\d+\\.[\\.\\d]+)",
     "name": "Maxthon",
     "version": "$1",
     "engine": {
       "default": "WebKit",
       "versions": {
-        "5.2": "Blink"
+        "4.2": "Blink"
       }
     }
   },
@@ -1901,8 +2798,18 @@
     }
   },
   {
-    "regex": "Puffin(?:/(\\d+[\\.\\d]+))?",
-    "name": "Puffin",
+    "regex": "Puffin/(\\d+[\\.\\d]+)FP",
+    "name": "Puffin Cloud Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Puffin/(\\d+[\\.\\d]+)(?:[LMW]D)",
+    "name": "Puffin Secure Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "Puffin/(\\d+[\\.\\d]+)(?:[AILW][PT]|M)?",
+    "name": "Puffin Web Browser",
     "version": "$1"
   },
   {
@@ -1914,7 +2821,7 @@
     }
   },
   {
-    "regex": "Chrome(?:/(\\d+[\\.\\d]+))?.*Iron",
+    "regex": "Chrome(?:/(\\d+\\.[\\.\\d]+) )?.*Iron",
     "name": "Iron",
     "version": "$1",
     "engine": {
@@ -1925,7 +2832,7 @@
     }
   },
   {
-    "regex": "Iron(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Iron/(\\d+[\\.\\d]+)",
     "name": "Iron",
     "version": "$1",
     "engine": {
@@ -1976,7 +2883,7 @@
     }
   },
   {
-    "regex": "M?QQBrowser(?:/([\\.\\d]+))?",
+    "regex": "M?QQ(?:Browser|浏览器)(?:/([\\.\\d]+))?",
     "name": "QQ Browser",
     "version": "$1",
     "engine": {
@@ -1985,7 +2892,7 @@
   },
   {
     "regex": "(?:MIUIBrowser|MiuiBrowser)(?:/(\\d+[\\.\\d]+))?",
-    "name": "MIUI Browser",
+    "name": "Mi Browser",
     "version": "$1",
     "engine": {
       "default": ""
@@ -2003,7 +2910,12 @@
     }
   },
   {
-    "regex": "DuckDuckGo/(\\d+[\\.\\d]*)",
+    "regex": "(?:DuckDuckGo|Ddg)/(\\d+[\\.\\d]*)",
+    "name": "DuckDuckGo Privacy Browser",
+    "version": "$1"
+  },
+  {
+    "regex": "(?:DDG-Android-|ddg_android/)(\\d+[\\.\\d]*)",
     "name": "DuckDuckGo Privacy Browser",
     "version": "$1",
     "engine": {
@@ -2021,7 +2933,7 @@
     "version": "$1"
   },
   {
-    "regex": "com.browser.tssomas(?:/(\\d+[\\.\\d]+))?",
+    "regex": "com\\.browser\\.tssomas(?:/(\\d+[\\.\\d]+))?",
     "name": "Super Fast Browser",
     "version": "$1"
   },
@@ -2043,7 +2955,7 @@
     "name": "Streamy",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": ""
     }
   },
   {
@@ -2051,38 +2963,7 @@
     "name": "Isivioo",
     "version": "",
     "engine": {
-      "default": "WebKit"
-    }
-  },
-  {
-    "regex": "UC[ ]?Browser(?:[ /]?(\\d+[\\.\\d]+))?",
-    "name": "UC Browser",
-    "version": "$1"
-  },
-  {
-    "regex": "UCWEB(?:[ /]?(\\d+[\\.\\d]+))?",
-    "name": "UC Browser",
-    "version": "$1"
-  },
-  {
-    "regex": "UC AppleWebKit",
-    "name": "UC Browser",
-    "version": ""
-  },
-  {
-    "regex": "UC%20Browser/(\\d+[\\.\\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)",
-    "name": "UC Browser",
-    "version": "$1",
-    "engine": {
-      "default": "WebKit"
-    }
-  },
-  {
-    "regex": "Chrome.+UC Browser(\\d+[\\.\\d]+)",
-    "name": "UC Browser",
-    "version": "$1",
-    "engine": {
-      "default": "Blink"
+      "default": ""
     }
   },
   {
@@ -2106,15 +2987,15 @@
     "name": "Firefox Rocket",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
-    "regex": "Web Explorer/(\\d+[\\.\\d]+).*Chrome",
+    "regex": "Web Explorer/(\\d+\\.[\\.\\d]+) .*Chrome",
     "name": "Web Explorer",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
@@ -2122,7 +3003,15 @@
     "name": "Web Explorer",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": ""
+    }
+  },
+  {
+    "regex": "Chrome.+SznProhlizec/(\\d+[\\.\\d]+)",
+    "name": "Seznam Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
     }
   },
   {
@@ -2130,7 +3019,7 @@
     "name": "Seznam Browser",
     "version": "$1",
     "engine": {
-      "default": "Blink"
+      "default": "WebKit"
     }
   },
   {
@@ -2154,7 +3043,10 @@
     "name": "Ecosia",
     "version": "$1",
     "engine": {
-      "default": ""
+      "default": "",
+      "versions": {
+        "28": "Blink"
+      }
     }
   },
   {
@@ -2163,6 +3055,22 @@
     "version": "",
     "engine": {
       "default": ""
+    }
+  },
+  {
+    "regex": "Chrome/.+ (?:LeBrowser|MobileLenovoBrowser)(?:/(\\d+[\\.\\d]+))?",
+    "name": "Lenovo Browser",
+    "version": "$1",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
+    "regex": "LeBrowser(?:/(\\d+[\\.\\d]+))?",
+    "name": "Lenovo Browser",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit"
     }
   },
   {
@@ -2213,7 +3121,7 @@
     "version": "$1"
   },
   {
-    "regex": "UP.Browser(?:/(\\d+[\\.\\d]+))?",
+    "regex": "UP\\.Browser(?:/(\\d+[\\.\\d]+))?",
     "name": "Openwave Mobile Browser",
     "version": "$1"
   },
@@ -2236,7 +3144,7 @@
     "version": "$1"
   },
   {
-    "regex": "(?:NokiaBrowser|BrowserNG)(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?:NokiaBrowser|BrowserNG|WicKed|Nokia-Communicator-WWW-Browser)(?:/(\\d+[\\.\\d]+))?",
     "name": "Nokia Browser",
     "version": "$1"
   },
@@ -2279,19 +3187,16 @@
     "version": "$1"
   },
   {
-    "regex": "Chrome/.+ Quark(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Quark(?:/(\\d+[\\.\\d]+))?",
     "name": "Quark",
-    "version": "$1",
-    "engine": {
-      "default": "WebKit"
-    }
+    "version": "$1"
   },
   {
     "regex": "MonumentBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "Monument Browser",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
@@ -2299,7 +3204,7 @@
     "name": "Blue Browser",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
@@ -2307,7 +3212,7 @@
     "name": "Japan Browser",
     "version": "$1",
     "engine": {
-      "default": "WebKit"
+      "default": "Blink"
     }
   },
   {
@@ -2330,6 +3235,14 @@
     }
   },
   {
+    "regex": "Soul(?:Browser)?$|Soul/",
+    "name": "Soul Browser",
+    "version": "",
+    "engine": {
+      "default": "Blink"
+    }
+  },
+  {
     "regex": "LG Browser(?:/(\\d+[\\.\\d]+))",
     "name": "LG Browser",
     "version": "$1"
@@ -2343,7 +3256,7 @@
     }
   },
   {
-    "regex": "Version/.* Chrome(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?: wv\\)|Version/).* Chrome(?:/(\\d+[\\.\\d]+))?",
     "name": "Chrome Webview",
     "version": "$1",
     "engine": {
@@ -2403,6 +3316,17 @@
     }
   },
   {
+    "regex": ".*Chromium(?:_(\\d+[\\.\\d]+))?",
+    "name": "Chromium",
+    "version": "$1",
+    "engine": {
+      "default": "WebKit",
+      "versions": {
+        "28": "Blink"
+      }
+    }
+  },
+  {
     "regex": "HeadlessChrome(?:/(\\d+[\\.\\d]+))?",
     "name": "Headless Chrome",
     "version": "$1",
@@ -2435,7 +3359,7 @@
     "version": "$1"
   },
   {
-    "regex": "Tizen (?:\\d+[\\.\\d]+).+ Version/(\\d+[\\.\\d]+) (?:TV|Mobile|like)",
+    "regex": "Tizen (?:\\d+\\.[\\.\\d]+)[^\\.\\d].* Version/(\\d+[\\.\\d]+) (?:TV|Mobile|like)",
     "name": "Tizen Browser",
     "version": "$1",
     "engine": {
@@ -2486,6 +3410,11 @@
   {
     "regex": "NCSA_Mosaic(?:/(\\d+[\\.\\d]+))?",
     "name": "NCSA Mosaic",
+    "version": "$1"
+  },
+  {
+    "regex": "VMS_Mosaic(?:/(\\d+[\\.\\d]+))?",
+    "name": "VMS Mosaic",
     "version": "$1"
   },
   {
@@ -2572,7 +3501,7 @@
     }
   },
   {
-    "regex": "Elinks(?:/(\\d+[\\.\\d]+))?",
+    "regex": "Elinks(?:[ /](\\d+[\\.\\d]+))?",
     "name": "Elinks",
     "version": "$1",
     "engine": {
@@ -2622,7 +3551,7 @@
     }
   },
   {
-    "regex": "GoogleEarth/(\\d+[\\.\\d]+).+client:(?:Plus|Pro)",
+    "regex": "GoogleEarth/(\\d+\\.[\\.\\d]+)[^\\.\\d].*client:(?:Plus|Pro)",
     "name": "Google Earth Pro",
     "version": "$1",
     "engine": {
@@ -2678,7 +3607,7 @@
     }
   },
   {
-    "regex": "MSIE (\\d+[\\.\\d]+).*XBLWP7",
+    "regex": "MSIE (\\d+\\.[\\.\\d]+)[^\\.\\d].*XBLWP7",
     "name": "IE Mobile",
     "version": "$1",
     "engine": {
@@ -2686,7 +3615,7 @@
     }
   },
   {
-    "regex": "MSIE.*Trident/4.0",
+    "regex": "MSIE.*Trident/4\\.0",
     "name": "Internet Explorer",
     "version": "8.0",
     "engine": {
@@ -2694,7 +3623,7 @@
     }
   },
   {
-    "regex": "MSIE.*Trident/5.0",
+    "regex": "MSIE.*Trident/5\\.0",
     "name": "Internet Explorer",
     "version": "9.0",
     "engine": {
@@ -2702,7 +3631,7 @@
     }
   },
   {
-    "regex": "MSIE.*Trident/6.0",
+    "regex": "MSIE.*Trident/6\\.0",
     "name": "Internet Explorer",
     "version": "10.0",
     "engine": {
@@ -2710,7 +3639,7 @@
     }
   },
   {
-    "regex": "Trident/[78].0",
+    "regex": "Trident/[78]\\.0",
     "name": "Internet Explorer",
     "version": "11.0",
     "engine": {
@@ -2768,13 +3697,21 @@
     }
   },
   {
-    "regex": "Phoenix(?:/(\\d+[\\.\\d]+))?",
+    "regex": "(?<!/)Phoenix(?:/(\\d+[\\.\\d]+))?",
     "name": "Phoenix",
     "version": "$1"
   },
   {
     "regex": "NetFrontLifeBrowser(?:/(\\d+[\\.\\d]+))?",
     "name": "NetFront Life",
+    "version": "$1",
+    "engine": {
+      "default": "NetFront"
+    }
+  },
+  {
+    "regex": "Browser/(?:NetFont-|NF|NetFront)(\\d+[\\.\\d]+)",
+    "name": "NetFront",
     "version": "$1",
     "engine": {
       "default": "NetFront"
@@ -2850,11 +3787,6 @@
     "version": "$1"
   },
   {
-    "regex": "Vision-Browser(?:/(\\d+[\\.\\d]+))",
-    "name": "Vision Mobile Browser",
-    "version": "$1"
-  },
-  {
     "regex": "WeTab-Browser",
     "name": "WeTab Browser",
     "version": ""
@@ -2868,6 +3800,11 @@
     "regex": "BlackBerry|PlayBook|BB10",
     "name": "BlackBerry Browser",
     "version": ""
+  },
+  {
+    "regex": "Browlser/(\\d+[\\.\\d]+)",
+    "name": "Browlser",
+    "version": "$1"
   },
   {
     "regex": "(?<! like )Android",
@@ -2915,7 +3852,7 @@
     }
   },
   {
-    "regex": "(?:Version/(\\d+[\\.\\d]+).*)?Mobile.*Safari/",
+    "regex": "(?:Version/(\\d+\\.[\\.\\d]+) .*)?Mobile.*Safari/",
     "name": "Mobile Safari",
     "version": "$1",
     "engine": {
@@ -2923,7 +3860,7 @@
     }
   },
   {
-    "regex": "(?:iPod|(?<!Apple TV; U; CPU )iPhone|iPad)",
+    "regex": "(?!^AppleCoreMedia/1\\.0\\.0)(?:iPod|(?<!Apple TV; U; CPU )iPhone|iPad)",
     "name": "Mobile Safari",
     "version": "",
     "engine": {
@@ -2931,7 +3868,7 @@
     }
   },
   {
-    "regex": "Version/(\\d+[\\.\\d]+).*Safari/|(?:Safari|Safari(?:%20)?%E6%B5%8F%E8%A7%88%E5%99%A8)/?\\d+",
+    "regex": "Version/(\\d+\\.[\\.\\d]+) .*Safari/|(?:Safari|Safari(?:%20)?%E6%B5%8F%E8%A7%88%E5%99%A8)/?\\d+",
     "name": "Safari",
     "version": "$1",
     "engine": {
@@ -2939,7 +3876,7 @@
     }
   },
   {
-    "regex": "Dorado WAP-Browser(?:[/ ](\\d+[\\.\\d]+))?",
+    "regex": "(?:\\w{1,5}[_ ])?Dorado(?: WAP-Browser)?(?:[/ ]?(\\d+[\\.\\d]+))?",
     "name": "Dorado",
     "version": "$1"
   },
@@ -2985,6 +3922,14 @@
     "version": "$1",
     "engine": {
       "default": "WebKit"
+    }
+  },
+  {
+    "regex": "(?<!like )Gecko(?!/\\d+ SlimerJS)",
+    "name": "Firefox",
+    "version": "",
+    "engine": {
+      "default": "Gecko"
     }
   }
 ]

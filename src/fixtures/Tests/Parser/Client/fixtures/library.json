@@ -272,6 +272,14 @@
     }
   },
   {
+    "user_agent": "insomnia/2022.6.0",
+    "client": {
+      "type": "library",
+      "name": "Insomnia REST Client",
+      "version": "2022.6.0"
+    }
+  },
+  {
     "user_agent": "Jakarta Commons-HttpClient/3.1",
     "client": {
       "type": "library",
@@ -404,7 +412,7 @@
     "client": {
       "type": "library",
       "name": "Windows HTTP",
-      "version": null
+      "version": ""
     }
   },
   {
@@ -421,6 +429,494 @@
       "type": "library",
       "name": "Apache HTTP Client",
       "version": "4.5.3"
+    }
+  },
+  {
+    "user_agent": "Cpanel-HTTP-Client/1.0",
+    "client": {
+      "type": "library",
+      "name": "cPanel HTTP Client",
+      "version": "1.0"
+    }
+  },
+  {
+    "user_agent": "PHP-Curl-Class/9.5.1 (+https://github.com/php-curl-class/php-curl-class)",
+    "client": {
+      "type": "library",
+      "name": "PHP cURL Class",
+      "version": "9.5.1"
+    }
+  },
+  {
+    "user_agent": "geoipupdate/4.9.0",
+    "client": {
+      "type": "library",
+      "name": "GeoIP Update",
+      "version": "4.9.0"
+    }
+  },
+  {
+    "user_agent": "fasthttp",
+    "client": {
+      "type": "library",
+      "name": "fasthttp",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "python-httpx/0.19.0",
+    "client": {
+      "type": "library",
+      "name": "HTTPX",
+      "version": "0.19.0"
+    }
+  },
+  {
+    "user_agent": "Python-httplib2/0.18.1 (gzip)",
+    "client": {
+      "type": "library",
+      "name": "httplib2",
+      "version": "0.18.1"
+    }
+  },
+  {
+    "user_agent": "hackney/1.7.1",
+    "client": {
+      "type": "library",
+      "name": "hackney",
+      "version": "1.7.1"
+    }
+  },
+  {
+    "user_agent": "network-okhttp3/3.12.10.301",
+    "client": {
+      "type": "library",
+      "name": "OkHttp",
+      "version": "3.12.10.301"
+    }
+  },
+  {
+    "user_agent": "okhttp3-3.12.1.hw.191202",
+    "client": {
+      "type": "library",
+      "name": "OkHttp",
+      "version": "3.12.1"
+    }
+  },
+  {
+    "user_agent": "grpc-java-okhttp/1.32.2",
+    "client": {
+      "type": "library",
+      "name": "gRPC-Java",
+      "version": "1.32.2"
+    }
+  },
+  {
+    "user_agent": "go-resty/2.7.0 (https://github.com/go-resty/resty)",
+    "client": {
+      "type": "library",
+      "name": "Resty",
+      "version": "2.7.0"
+    }
+  },
+  {
+    "user_agent": "pa11y/6.1.1",
+    "client": {
+      "type": "library",
+      "name": "Pa11y",
+      "version": "6.1.1"
+    }
+  },
+  {
+    "user_agent": "ultimate_sitemap_parser/0.5",
+    "client": {
+      "type": "library",
+      "name": "Ultimate Sitemap Parser",
+      "version": "0.5"
+    }
+  },
+  {
+    "user_agent": "Artifactory/7.21.5 72105900",
+    "client": {
+      "type": "library",
+      "name": "Artifactory",
+      "version": "7.21.5"
+    }
+  },
+  {
+    "user_agent": "containers/5.17.0 (github.com/containers/image)",
+    "client": {
+      "type": "library",
+      "name": "containers",
+      "version": "5.17.0"
+    }
+  },
+  {
+    "user_agent": "containerd/v1.4.13-k3s1",
+    "client": {
+      "type": "library",
+      "name": "Containerd",
+      "version": "1.4.13"
+    }
+  },
+  {
+    "user_agent": "containerd/1.5.11+azure-1",
+    "client": {
+      "type": "library",
+      "name": "Containerd",
+      "version": "1.5.11"
+    }
+  },
+  {
+    "user_agent": "cri-o/1.16.1 go/go1.12.17 os/linux arch/amd64",
+    "client": {
+      "type": "library",
+      "name": "cri-o",
+      "version": "1.16.1"
+    }
+  },
+  {
+    "user_agent": "go-containerregistry/v0.11.0",
+    "client": {
+      "type": "library",
+      "name": "go-container registry",
+      "version": "0.11.0"
+    }
+  },
+  {
+    "user_agent": "Buildah/1.23.1",
+    "client": {
+      "type": "library",
+      "name": "Buildah",
+      "version": "1.23.1"
+    }
+  },
+  {
+    "user_agent": "buildkit/0.10",
+    "client": {
+      "type": "library",
+      "name": "BuildKit",
+      "version": "0.10"
+    }
+  },
+  {
+    "user_agent": "buildkit/v0.10",
+    "client": {
+      "type": "library",
+      "name": "BuildKit",
+      "version": "0.10"
+    }
+  },
+  {
+    "user_agent": "BSRPC 0.9.1",
+    "client": {
+      "type": "library",
+      "name": "Open Build Service",
+      "version": "0.9.1"
+    }
+  },
+  {
+    "user_agent": "skopeo/1.7.0",
+    "client": {
+      "type": "library",
+      "name": "Skopeo",
+      "version": "1.7.0"
+    }
+  },
+  {
+    "user_agent": "Helm/3.9.2",
+    "client": {
+      "type": "library",
+      "name": "Helm",
+      "version": "3.9.2"
+    }
+  },
+  {
+    "user_agent": "harbor-registry-client",
+    "client": {
+      "type": "library",
+      "name": "Harbor registry client",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "libcurl/7.79.1 r-curl/4.3.2 httr/1.4.3",
+    "client": {
+      "type": "library",
+      "name": "r-curl",
+      "version": "4.3.2"
+    }
+  },
+  {
+    "user_agent": "Dart/2.16 (dart:io)",
+    "client": {
+      "type": "library",
+      "name": "Dart",
+      "version": "2.16"
+    }
+  },
+  {
+    "user_agent": "req/v3 (https://github.com/imroc/req)",
+    "client": {
+      "type": "library",
+      "name": "req",
+      "version": "3"
+    }
+  },
+  {
+    "user_agent": "azure-data-factory/2.0",
+    "client": {
+      "type": "library",
+      "name": "Azure Data Factory",
+      "version": "2.0"
+    }
+  },
+  {
+    "user_agent": "quic-go-HTTP/3",
+    "client": {
+      "type": "library",
+      "name": "quic-go",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "Typhoeus - https://github.com/typhoeus/typhoeus",
+    "client": {
+      "type": "library",
+      "name": "Typhoeus",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "got (https://github.com/sindresorhus/got)",
+    "client": {
+      "type": "library",
+      "name": "got",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "axios/1.2.0",
+    "client": {
+      "type": "library",
+      "name": "Axios",
+      "version": "1.2.0"
+    }
+  },
+  {
+    "user_agent": "HTMLParser/1.6",
+    "client": {
+      "type": "library",
+      "name": "HTML Parser",
+      "version": "1.6"
+    }
+  },
+  {
+    "user_agent": "python-urllib3/1.26.9",
+    "client": {
+      "type": "library",
+      "name": "Python urllib",
+      "version": "1.26.9"
+    }
+  },
+  {
+    "user_agent": "msray-plus",
+    "client": {
+      "type": "library",
+      "name": "Msray-Plus",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "Slim Framework",
+    "client": {
+      "type": "library",
+      "name": "Slim Framework",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "Fuzz Faster U Fool v1.5.0-dev",
+    "client": {
+      "type": "library",
+      "name": "FFUF",
+      "version": "1.5.0"
+    }
+  },
+  {
+    "user_agent": "cpp-httplib/0.10.9",
+    "client": {
+      "type": "library",
+      "name": "cpp-httplib",
+      "version": "0.10.9"
+    }
+  },
+  {
+    "user_agent": "Definitely-Not-Requests",
+    "client": {
+      "type": "library",
+      "name": "Requests",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "Stealer 0.2.0",
+    "client": {
+      "type": "library",
+      "name": "Stealer",
+      "version": "0.2.0"
+    }
+  },
+  {
+    "user_agent": "Mandrill-PHP/1.0.55",
+    "client": {
+      "type": "library",
+      "name": "Mandrill PHP",
+      "version": "1.0.55"
+    }
+  },
+  {
+    "user_agent": "babashka.http-client/0.4.14",
+    "client": {
+      "type": "library",
+      "name": "Babashka HTTP Client",
+      "version": "0.4.14"
+    }
+  },
+  {
+    "user_agent": "http.rb/4.0.0",
+    "client": {
+      "type": "library",
+      "name": "http.rb",
+      "version": "4.0.0"
+    }
+  },
+  {
+    "user_agent": "node-superagent/3.8.2",
+    "client": {
+      "type": "library",
+      "name": "superagent",
+      "version": "3.8.2"
+    }
+  },
+  {
+    "user_agent": "CakePHP",
+    "client": {
+      "type": "library",
+      "name": "CakePHP",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "request.js",
+    "client": {
+      "type": "library",
+      "name": "request",
+      "version": ""
+    }
+  },
+  {
+    "user_agent": "qbhttp/1.0.0",
+    "client": {
+      "type": "library",
+      "name": "QbHttp",
+      "version": "1.0.0"
+    }
+  },
+  {
+    "user_agent": "kiwi-tcms/13.0",
+    "client": {
+      "type": "library",
+      "name": "Kiwi TCMS",
+      "version": "13.0"
+    }
+  },
+  {
+    "user_agent": "kiwi-tcms/12.6.1-Enterprise",
+    "client": {
+      "type": "library",
+      "name": "Kiwi TCMS",
+      "version": "12.6.1"
+    }
+  },
+  {
+    "user_agent": "tcms-api/12.9.1/Python 3.11.8 (main, Feb  7 2024, 04:02:05) [GCC 11.4.0]",
+    "client": {
+      "type": "library",
+      "name": "Kiwi TCMS API",
+      "version": "12.9.1"
+    }
+  },
+  {
+    "user_agent": "tcms-api/12.7/Java",
+    "client": {
+      "type": "library",
+      "name": "Kiwi TCMS API",
+      "version": "12.7"
+    }
+  },
+  {
+    "user_agent": "electron-fetch/1.0 electron (+https://github.com/arantes555/electron-fetch)",
+    "client": {
+      "type": "library",
+      "name": "Electron Fetch",
+      "version": "1.0"
+    }
+  },
+  {
+    "user_agent": "httprs/0.1.0",
+    "client": {
+      "type": "library",
+      "name": "httprs",
+      "version": "0.1.0"
+    }
+  },
+  {
+    "user_agent": "Boto3/1.17.18 Python/3.8.5 Darwin/19.6.0 Botocore/1.20.18",
+    "client": {
+      "type": "library",
+      "name": "Boto3",
+      "version": "1.17.18"
+    }
+  },
+  {
+    "user_agent": "Python-xmlrpc/3.12",
+    "client": {
+      "type": "library",
+      "name": "XML-RPC",
+      "version": "3.12"
+    }
+  },
+  {
+    "user_agent": "ICAP-Client-Library/2.3",
+    "client": {
+      "type": "library",
+      "name": "ICAP Client",
+      "version": "2.3"
+    }
+  },
+  {
+    "user_agent": "IPinfoClient/PHP/3.1.2",
+    "client": {
+      "type": "library",
+      "name": "IPinfo",
+      "version": "3.1.2"
+    }
+  },
+  {
+    "user_agent": "IPinfoClient/Ruby/2.2.1",
+    "client": {
+      "type": "library",
+      "name": "IPinfo",
+      "version": "2.2.1"
+    }
+  },
+  {
+    "user_agent": "IPinfoClient/Java/3.0.0",
+    "client": {
+      "type": "library",
+      "name": "IPinfo",
+      "version": "3.0.0"
     }
   }
 ]
