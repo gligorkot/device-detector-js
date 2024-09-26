@@ -6435,7 +6435,7 @@
     },
     "device": {
       "type": "tv",
-      "brand": "",
+      "brand": "Unknown",
       "model": ""
     },
     "os_family": "GNU/Linux",

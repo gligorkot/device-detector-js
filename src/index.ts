@@ -190,6 +190,13 @@ class DeviceDetector {
     }
 
     /**
+     * Early return for PlayStation devices
+     */
+    if (userAgentParser("PlayStation [345]", userAgent)) {
+      return result;
+    }
+
+    /**
      * All devices running Opera TV Store are assumed to be televisions
      */
     if (userAgentParser("Opera TV Store| OMI/", userAgent)) {
