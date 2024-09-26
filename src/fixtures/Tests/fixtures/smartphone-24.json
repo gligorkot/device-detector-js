@@ -2942,8 +2942,8 @@
     },
     "client": {
       "type": "browser",
-      "name": "Android Browser",
-      "version": "",
+      "name": "Tizen Browser",
+      "version": "2.2",
       "engine": "WebKit",
       "engine_version": "537.3"
     },
@@ -2953,7 +2953,7 @@
       "model": "SM-Z9005"
     },
     "os_family": "Other Mobile",
-    "browser_family": "Android Browser"
+    "browser_family": "Unknown"
   },
   {
     "user_agent": "Mozilla/5.0 (Linux; Android 9; LEX820) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36 OPR/56.1.2780.51589",

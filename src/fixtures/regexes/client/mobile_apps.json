@@ -535,6 +535,11 @@
     "version": ""
   },
   {
+    "regex": "com.tinyspeck.chatlyio/(\\d+[\\.\\d]+)",
+    "name": "Slack",
+    "version": "$1"
+  },
+  {
     "regex": "KAKAOTALK (\\d+\\.(?:[\\.\\d]+))?",
     "name": "KakaoTalk",
     "version": "$1"
@@ -745,7 +750,7 @@
     "version": "$1"
   },
   {
-    "regex": "TeamsMobile-iOS",
+    "regex": "TeamsMobile-(?:Android|iOS)",
     "name": "Teams",
     "version": ""
   },
@@ -1253,5 +1258,35 @@
     "regex": "ExpediaBookings",
     "name": "Expedia",
     "version": ""
+  },
+  {
+    "regex": "Windows Antivirus (\\d+\\.[\\.\\d]+)",
+    "name": "Windows Antivirus",
+    "version": "$1"
+  },
+  {
+    "regex": "^Reflect",
+    "name": "Macrium Reflect",
+    "version": ""
+  },
+  {
+    "regex": "Opera autoupdate agent",
+    "name": "Opera Updater",
+    "version": ""
+  },
+  {
+    "regex": "Ballz/(\\d+\\.[\\.\\d]+)",
+    "name": "Ballz",
+    "version": "$1"
+  },
+  {
+    "regex": "rnps-action-cards/(\\d+\\.[\\.\\d]+)",
+    "name": "RNPS Action Cards",
+    "version": "$1"
+  },
+  {
+    "regex": "PlexMediaServer/(\\d+\\.[\\.\\d]+)",
+    "name": "Plex Media Server",
+    "version": "$1"
   }
 ]

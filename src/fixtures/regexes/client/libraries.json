@@ -1,5 +1,10 @@
 [
   {
+    "regex": "AnyEvent-HTTP(?:/(\\d+[\\.\\d]+))?",
+    "name": "AnyEvent HTTP",
+    "version": "$1"
+  },
+  {
     "regex": "SlimerJS/(\\d+[\\.\\d]+)",
     "name": "SlimerJS",
     "version": "$1"
@@ -27,6 +32,16 @@
   {
     "regex": "Python-urllib(?:/?(\\d+[\\.\\d]+))?",
     "name": "Python urllib",
+    "version": "$1"
+  },
+  {
+    "regex": "Apache-HttpClient(?:/?(\\d+[\\.\\d]+))?",
+    "name": "Apache HTTP Client",
+    "version": "$1"
+  },
+  {
+    "regex": "Java-http-client(?:/?(\\d+[\\.\\d]+))?",
+    "name": "Java HTTP Client",
     "version": "$1"
   },
   {
@@ -154,6 +169,11 @@
     "version": "$1"
   },
   {
+    "regex": "WinHTTP",
+    "name": "Windows HTTP",
+    "version": ""
+  },
+  {
     "regex": "Embarcadero URI Client/([\\.\\d]+)",
     "name": "Embarcadero URI Client",
     "version": "$1"
@@ -206,6 +226,11 @@
   {
     "regex": "unirest-java/([\\.\\d]+)",
     "name": "Unirest for Java",
+    "version": "$1"
+  },
+  {
+    "regex": "jsdom/([\\.\\d]+)",
+    "name": "jsdom",
     "version": "$1"
   }
 ]

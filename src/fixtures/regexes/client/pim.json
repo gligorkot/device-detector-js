@@ -123,5 +123,10 @@
     "regex": "Yahoo%20Mail",
     "name": "Yahoo Mail",
     "version": ""
+  },
+  {
+    "regex": "eM Client/(\\d+\\.[\\.\\d]+)",
+    "name": "eM Client",
+    "version": "$1"
   }
 ]
