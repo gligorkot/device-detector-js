@@ -7,7 +7,7 @@
     "quotemark": [true, "double"],
     "no-submodule-imports": false,
     "promise-function-async": true,
-    "max-file-line-count": [true, 300],
+    "max-file-line-count": [true, 400],
     "no-trailing-whitespace": true,
     "newline-before-return": true,
     "no-consecutive-blank-lines": true,

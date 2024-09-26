@@ -28,7 +28,7 @@
     "TB", "TG", "TR", "TS", "TU", "TV", "UB", "UR", "VE",
     "VG", "VI", "VM", "WP", "WH", "XV", "YJ", "YN", "FH",
     "B1", "BO", "HB", "PC", "LA", "LT", "PD", "HR", "HU",
-    "HP", "IO", "TP", "CJ"
+    "HP", "IO", "TP", "CJ", "HQ"
   ],
   "Firefox": [
     "FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF",
@@ -68,7 +68,8 @@
     "SF",
     "MF",
     "SO",
-    "S7"
+    "S7",
+    "PV"
   ],
   "Sailfish Browser": [
     "SA"

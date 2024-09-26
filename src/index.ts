@@ -192,7 +192,18 @@ class DeviceDetector {
     /**
      * All devices running Opera TV Store are assumed to be televisions
      */
-    if (userAgentParser("Opera TV Store", userAgent)) {
+    if (userAgentParser("Opera TV Store| OMI/", userAgent)) {
+      if (!result.device ) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "television";
+    }
+
+    /**
+     * All devices that contain Andr0id in string are assumed to be a tv
+     */
+    if (userAgentParser("Andr0id|Android TV", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
