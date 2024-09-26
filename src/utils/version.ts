@@ -37,6 +37,10 @@ export const parseBrowserEngineVersion = (userAgent: string, engine: string) => 
     }
   }
 
+  if (engine === "Blink") {
+    engine = "Chrome";
+  }
+
   const regex = new RegExp(`${engine}\\s*\\/?\\s*((?:(?=\\d+\\.\\d)\\d+[.\\d]*|\\d{1,7}(?=(?:\\D|$))))`, "i");
   const match = userAgent.match(regex);
 

@@ -29,14 +29,16 @@
     "VG", "VI", "VM", "WP", "WH", "XV", "YJ", "YN", "FH",
     "B1", "BO", "HB", "PC", "LA", "LT", "PD", "HR", "HU",
     "HP", "IO", "TP", "CJ", "HQ", "HI", "NA", "BW", "YO",
-    "DC"
+    "DC", "G8", "DT", "AP", "AK", "UI", "SD", "VN", "4S",
+    "2S", "RF", "LR", "SQ", "BV", "L1", "F0", "KS", "V0",
+    "C8", "AZ", "MM", "BT", "N0", "P0", "F3", "VS"
   ],
   "Firefox": [
-    "FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF",
-    "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI",
-    "MN", "BH", "TO", "OS", "MY", "FY", "AX", "C0", "LH",
-    "S5", "ZV", "IW", "PI", "BN", "OA", "LY", "IF", "BF",
-    "QA"
+    "AX", "BI", "BF", "BH", "BN", "C0", "CU", "EI", "F1",
+    "FB", "FE", "FF", "FM", "FR", "FY", "GZ", "I4", "IF",
+    "IW", "LH", "LY", "MB", "MN", "MO", "MY", "OA", "OS",
+    "PI", "PX", "QA", "QM", "S5", "SX", "TF", "TO", "WF",
+    "ZV", "FP"
   ],
   "Internet Explorer": ["IE", "IM", "PS", "CZ", "BZ"],
   "Konqueror": [
@@ -55,15 +57,7 @@
     "DO"
   ],
   "Opera": [
-    "OP",
-    "OM",
-    "OI",
-    "ON",
-    "OO",
-    "OG",
-    "OH",
-    "O1",
-    "OX"
+    "O1", "OG", "OH", "OI", "OM", "ON", "OO", "OP", "OX", "Y1"
   ],
   "Safari": [
     "SF",
