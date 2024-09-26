@@ -86,19 +86,30 @@ class DeviceDetector {
      *       a detected browser, but can still be detected. So we check the useragent for Chrome instead.
      */
     if (!result.device?.type && osFamily === "Android" && userAgentParser("Chrome/[.0-9]*", userAgent)) {
-      if (userAgentParser("(?:Mobile|eliboM) Safari/", userAgent)) {
+      if (userAgentParser("(?:Mobile|eliboM)", userAgent)) {
         if (!result.device) {
           result.device = this.createDeviceObject();
         }
 
         result.device.type = "smartphone";
-      } else if (userAgentParser("(?!Mobile )Safari/", userAgent)) {
+      } else {
         if (!result.device) {
           result.device = this.createDeviceObject();
         }
 
         result.device.type = "tablet";
       }
+    }
+
+    /**
+     * Some user agents contain the fragment 'Pad/APad', so we assume those devices as tablets
+     */
+    if (result.device?.type === "smartphone" && userAgentParser("Pad/APad", userAgent)) {
+      if (!result.device) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "tablet";
     }
 
     /**
@@ -197,6 +208,39 @@ class DeviceDetector {
     }
 
     /**
+     * All devices running Puffin Secure Browser that contain letter 'D' are assumed to be desktops
+     */
+    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[LMW]D", userAgent)) {
+      if (!result.device ) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "desktop";
+    }
+
+    /**
+     * All devices running Puffin Web Browser that contain letter 'P' are assumed to be smartphones
+     */
+    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[AIFLW]P", userAgent)) {
+      if (!result.device ) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "smartphone";
+    }
+
+    /**
+     * All devices running Puffin Web Browser that contain letter 'T' are assumed to be tablets
+     */
+    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[AILW]T", userAgent)) {
+      if (!result.device ) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "tablet";
+    }
+
+    /**
      * All devices running Opera TV Store are assumed to be televisions
      */
     if (userAgentParser("Opera TV Store| OMI/", userAgent)) {
@@ -210,7 +254,7 @@ class DeviceDetector {
     /**
      * All devices that contain Andr0id in string are assumed to be a tv
      */
-    if (userAgentParser("Andr0id|Android TV", userAgent)) {
+    if (userAgentParser("Andr0id|(?:Android(?: UHD)?|Google) TV|\(lite\) TV|BRAVIA| TV$", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
@@ -230,9 +274,21 @@ class DeviceDetector {
     }
 
     /**
-     * Devices running Kylo or Espital TV Browsers are assumed to be televisions
+     * Devices running those clients are assumed to be televisions
      */
-    if (!result.device?.type && ["Kylo", "Espial TV Browser"].includes(result.client?.name || "")) {
+    if (!result.device?.type && ["Kylo", "Espial TV Browser", "LUJO TV Browser", "LogicUI TV Browser", "Open TV Browser", "Seraphic Sraf",
+      "Opera Devices", "Crow Browser", "Vewd Browser", "TiviMate", "Quick Search TV", "QJY TV Browser", "TV Bro"].includes(result.client?.name || "")) {
+      if (!result.device) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "television";
+    }
+
+    /**
+     * All devices containing TV fragment are assumed to be a tv
+     */
+    if (!result.device?.type && userAgentParser("\(TV;", userAgent)) {
       if (!result.device) {
         result.device = this.createDeviceObject();
       }
@@ -267,7 +323,7 @@ class DeviceDetector {
   };
 
   private hasAndroidMobileFragment = (userAgent: string) => {
-    return userAgentParser("Android( [\.0-9]+)?; Mobile;", userAgent);
+    return userAgentParser("Android( [\.0-9]+)?; Mobile;|.*\-mobile$", userAgent);
   };
 
   private hasAndroidTabletFragment = (userAgent: string) => {
@@ -275,7 +331,7 @@ class DeviceDetector {
   };
 
   private hasDesktopFragment = (userAgent: string) => {
-    return userAgentParser("Desktop (x(?:32|64)|WOW64);", userAgent);
+    return userAgentParser("Desktop(?: (x(?:32|64)|WOW64))?;", userAgent);
   };
 
   private isDesktop = (result: DeviceDetector.DeviceDetectorResult, osFamily: string): boolean => {
