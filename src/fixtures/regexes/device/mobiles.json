@@ -46932,7 +46932,7 @@
   },
   "Tigers": {
     "regex": "TIS001[_-]",
-    "decice": "smartphone",
+    "device": "smartphone",
     "models": [
       {
         "regex": "TIS001[_-]S([34])(?:[);/ ]|$)",
@@ -46946,7 +46946,7 @@
   },
   "Redfox": {
     "regex": "(?:Wizpad_)?Valuer_V8",
-    "decice": "tablet",
+    "device": "tablet",
     "models": [
       {
         "regex": "(?:Wizpad_)?Valuer_V8",
@@ -46966,7 +46966,7 @@
   },
   "Vios": {
     "regex": "VMP0617",
-    "decice": "smartphone",
+    "device": "smartphone",
     "models": [
       {
         "regex": "VMP0617(?:[);/ ]|$)",
