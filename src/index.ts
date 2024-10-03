@@ -53,8 +53,18 @@ class DeviceDetector {
     };
 
     const osName = result.os?.name;
-    const osVersion = result.os?.version;
     const osFamily = OperatingSystemParser.getOsFamily(osName || "");
+    const osVersion = result.os?.version;
+    const appleOsNames = ["iPadOS", "tvOS", "watchOS", "iOS", "Mac"];
+
+    /**
+     * if it's fake UA then it's best not to identify it as Apple running Android OS or GNU/Linux
+     */
+    if (result.device?.brand === "Apple" && !appleOsNames.includes(osName || "")) {
+      result.device.type = "";
+      result.device.brand  = "";
+      result.device.model  = "";
+  }
 
     if (!result.device?.brand) {
       const brand = this.vendorFragmentParser.parse(userAgent);
@@ -70,12 +80,23 @@ class DeviceDetector {
     /**
      * Assume all devices running iOS / Mac OS are from Apple
      */
-    if (!result.device?.brand && ["iPadOS", "tvOS", "watchOS", "iOS", "Mac"].includes(osName || "")) {
+    if (!result.device?.brand && appleOsNames.includes(osName || "")) {
       if (!result.device) {
         result.device = this.createDeviceObject();
       }
 
       result.device.brand = "Apple";
+    }
+
+    /**
+     * All devices containing VR fragment are assumed to be a wearable
+     */
+    if (!result.device?.type && this.hasAndroidVRFragment(userAgent)) {
+      if (!result.device) {
+        result.device = this.createDeviceObject();
+      }
+
+      result.device.type = "wearable";
     }
 
     /**
@@ -85,7 +106,7 @@ class DeviceDetector {
      * Note: We do not check for browser (family) here, as there might be mobile apps using Chrome, that won't have
      *       a detected browser, but can still be detected. So we check the useragent for Chrome instead.
      */
-    if (!result.device?.type && osFamily === "Android" && userAgentParser("Chrome/[.0-9]*", userAgent)) {
+    if (!result.device?.type && osFamily === "Android" && userAgentParser("Chrome/[\\.0-9]*", userAgent)) {
       if (userAgentParser("(?:Mobile|eliboM)", userAgent)) {
         if (!result.device) {
           result.device = this.createDeviceObject();
@@ -210,7 +231,7 @@ class DeviceDetector {
     /**
      * All devices running Puffin Secure Browser that contain letter 'D' are assumed to be desktops
      */
-    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[LMW]D", userAgent)) {
+    if (!result.device?.type && userAgentParser("Puffin/(?:\\d+[.\\d]+)[LMW]D", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
@@ -221,7 +242,7 @@ class DeviceDetector {
     /**
      * All devices running Puffin Web Browser that contain letter 'P' are assumed to be smartphones
      */
-    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[AIFLW]P", userAgent)) {
+    if (!result.device?.type && userAgentParser("Puffin/(?:\\d+[.\\d]+)[AIFLW]P", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
@@ -232,7 +253,7 @@ class DeviceDetector {
     /**
      * All devices running Puffin Web Browser that contain letter 'T' are assumed to be tablets
      */
-    if (!result.device?.type && userAgentParser("Puffin/(?:\d+[.\d]+)[AILW]T", userAgent)) {
+    if (!result.device?.type && userAgentParser("Puffin/(?:\\d+[.\\d]+)[AILW]T", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
@@ -254,7 +275,7 @@ class DeviceDetector {
     /**
      * All devices that contain Andr0id in string are assumed to be a tv
      */
-    if (userAgentParser("Andr0id|(?:Android(?: UHD)?|Google) TV|\(lite\) TV|BRAVIA| TV$", userAgent)) {
+    if (userAgentParser("Andr0id|(?:Android(?: UHD)?|Google) TV|\\(lite\\) TV|BRAVIA| TV$", userAgent)) {
       if (!result.device ) {
         result.device = this.createDeviceObject();
       }
@@ -288,7 +309,7 @@ class DeviceDetector {
     /**
      * All devices containing TV fragment are assumed to be a tv
      */
-    if (!result.device?.type && userAgentParser("\(TV;", userAgent)) {
+    if (!result.device?.type && userAgentParser("\\(TV;", userAgent)) {
       if (!result.device) {
         result.device = this.createDeviceObject();
       }
@@ -323,11 +344,15 @@ class DeviceDetector {
   };
 
   private hasAndroidMobileFragment = (userAgent: string) => {
-    return userAgentParser("Android( [\.0-9]+)?; Mobile;|.*\-mobile$", userAgent);
+    return userAgentParser("Android( [\\.0-9]+)?; Mobile;|.*\\-mobile$", userAgent);
   };
 
   private hasAndroidTabletFragment = (userAgent: string) => {
-    return userAgentParser("Android( [\.0-9]+)?; Tablet;", userAgent);
+    return userAgentParser("Android( [\\.0-9]+)?; Tablet;|Tablet(?! PC)|.*\\-tablet$", userAgent);
+  };
+
+  private hasAndroidVRFragment = (userAgent: string) => {
+    return userAgentParser("Android( [\\.0-9]+)?; Mobile VR;| VR", userAgent);
   };
 
   private hasDesktopFragment = (userAgent: string) => {
